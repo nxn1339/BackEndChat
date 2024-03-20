@@ -1,0 +1,13 @@
+GET http://localhost:3000/message
+
+### Create message
+POST http://localhost:3000/message
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImI1YjMxOTBjLTUzOTctMTFlZS1iNjEwLTA4OTc5OGQzIiwiaWF0IjoxNjk5MjYwMzI3LCJleHAiOjE2OTkzNDY3Mjd9.-tlCKkkUcy1eR7v1bU-2WMF4tZWfhECITQKg7y6aGOw
+
+{
+      "content": "chao ban",
+      "image": "resources/anh.jpg",
+      "from_id_user": "123445",
+      "id_user": "111151"
+}

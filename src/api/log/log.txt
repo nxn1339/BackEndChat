@@ -1,0 +1,74 @@
+log============================================================================
+        Wed Mar 20 2024 14:40:01 GMT+0700 (インドシナ時間)
+        message: Unknown column 'field.id' in 'order clause'
+        stack: Error: Unknown column 'field.id' in 'order clause'
+    at PromisePool.execute (C:\Project\ttcn_v1\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\Project\ttcn_v1\src\api\helpers\database.js:7:34)
+    at Object.getListMessage (C:\Project\ttcn_v1\src\api\controllers\message.js:5:33)
+    at C:\Project\ttcn_v1\src\api\routers\message.js:7:35
+    at Layer.handle [as handle_request] (C:\Project\ttcn_v1\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Project\ttcn_v1\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Project\ttcn_v1\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Project\ttcn_v1\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Project\ttcn_v1\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Project\ttcn_v1\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Wed Mar 20 2024 14:45:40 GMT+0700 (インドシナ時間)
+        message: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''resources/default-avatar.png
+            )' at line 13
+        stack: Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''resources/default-avatar.png
+            )' at line 13
+    at PromisePool.execute (C:\Project\ttcn_v1\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\Project\ttcn_v1\src\api\helpers\database.js:7:34)
+    at Object.addMessage (C:\Project\ttcn_v1\src\api\controllers\message.js:24:18)
+    at C:\Project\ttcn_v1\src\api\routers\message.js:15:35
+    at Layer.handle [as handle_request] (C:\Project\ttcn_v1\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Project\ttcn_v1\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Project\ttcn_v1\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Project\ttcn_v1\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Project\ttcn_v1\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Project\ttcn_v1\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Wed Mar 20 2024 14:47:48 GMT+0700 (インドシナ時間)
+        message: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''resources/default-avatar.png
+            )' at line 13
+        stack: Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''resources/default-avatar.png
+            )' at line 13
+    at PromisePool.execute (C:\Project\ttcn_v1\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\Project\ttcn_v1\src\api\helpers\database.js:7:34)
+    at Object.addMessage (C:\Project\ttcn_v1\src\api\controllers\message.js:24:18)
+    at C:\Project\ttcn_v1\src\api\routers\message.js:15:35
+    at Layer.handle [as handle_request] (C:\Project\ttcn_v1\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Project\ttcn_v1\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Project\ttcn_v1\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Project\ttcn_v1\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Project\ttcn_v1\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Project\ttcn_v1\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Wed Mar 20 2024 15:00:38 GMT+0700 (インドシナ時間)
+        message: Duplicate entry '12345' for key 'from_id_user'
+        stack: Error: Duplicate entry '12345' for key 'from_id_user'
+    at PromisePool.execute (C:\Project\ttcn_v1\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\Project\ttcn_v1\src\api\helpers\database.js:7:34)
+    at Object.addMessage (C:\Project\ttcn_v1\src\api\controllers\message.js:24:18)
+    at C:\Project\ttcn_v1\src\api\routers\message.js:15:35
+    at Layer.handle [as handle_request] (C:\Project\ttcn_v1\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Project\ttcn_v1\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Project\ttcn_v1\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Project\ttcn_v1\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Project\ttcn_v1\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Project\ttcn_v1\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Wed Mar 20 2024 15:02:26 GMT+0700 (インドシナ時間)
+        message: Duplicate entry '11111' for key 'id_user'
+        stack: Error: Duplicate entry '11111' for key 'id_user'
+    at PromisePool.execute (C:\Project\ttcn_v1\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\Project\ttcn_v1\src\api\helpers\database.js:7:34)
+    at Object.addMessage (C:\Project\ttcn_v1\src\api\controllers\message.js:24:18)
+    at C:\Project\ttcn_v1\src\api\routers\message.js:15:35
+    at Layer.handle [as handle_request] (C:\Project\ttcn_v1\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Project\ttcn_v1\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Project\ttcn_v1\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Project\ttcn_v1\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Project\ttcn_v1\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Project\ttcn_v1\node_modules\express\lib\router\index.js:346:12)
