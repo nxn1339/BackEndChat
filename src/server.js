@@ -6,6 +6,8 @@ const userRouter = require('./api/routers/user')
 const imageRouter = require('./api/routers/image')
 const messageRouter = require('./api/routers/message')
 const db = require('./api/helpers/database')
+const server = require('http').Server(app)
+const io = require('socket.io')(server);
 
 app.use(express.json())
 app.use(
@@ -42,7 +44,19 @@ app.use((err, req, res, next) => {
     })
 })
 
-app.listen(port, () => {
+io.on('connection',function(socket){
+    console.log("co thang ket noi");
+    socket.on('disconnect', () => {
+        console.log('User disconnected');
+    });
+
+    socket.on('chat message', (msg) => {
+        console.log('message: ' + msg);
+        io.emit('chat message', msg);
+    });
+})
+
+server.listen(port, () => {
     db.execute('SET GLOBAL event_scheduler="ON"')
     console.log(`App listening at http://${mySql.host}:${port}`)
 })
