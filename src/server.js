@@ -4,7 +4,7 @@ const app = express()
 const { port, mySql } = require('./config/config')
 const userRouter = require('./api/routers/user')
 const imageRouter = require('./api/routers/image')
-const messageRouter = require('./api/routers/message')
+const groupRouter = require('./api/routers/group')
 const db = require('./api/helpers/database')
 const server = require('http').Server(app)
 const io = require('socket.io')(server);
@@ -24,7 +24,7 @@ app.get('/', (req, res, next) => {
 app.use('/resources', express.static(__dirname + '/resources'))
 app.use('/user', userRouter)
 app.use('/image', imageRouter)
-app.use('/message',messageRouter)
+app.use('/group',groupRouter)
 
 // Error
 app.use((err, req, res, next) => {

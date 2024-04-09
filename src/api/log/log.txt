@@ -72,3 +72,521 @@ log============================================================================
     at Layer.handle [as handle_request] (C:\Project\ttcn_v1\node_modules\express\lib\router\layer.js:95:5)
     at C:\Project\ttcn_v1\node_modules\express\lib\router\index.js:284:15
     at Function.process_params (C:\Project\ttcn_v1\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Tue Apr 09 2024 19:51:03 GMT+0700 (Indochina Time)
+        message: Cannot read properties of undefined (reading 'length')
+        stack: Error: Cannot read properties of undefined (reading 'length')
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.getDetailInfo (C:\ProjectFlutter\BackEndChat\src\api\controllers\user.js:8:31)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\user.js:9:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+============================================================================
+        Tue Apr 09 2024 19:51:15 GMT+0700 (Indochina Time)
+        message: Cannot read properties of undefined (reading 'length')
+        stack: Error: Cannot read properties of undefined (reading 'length')
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.getDetailInfo (C:\ProjectFlutter\BackEndChat\src\api\controllers\user.js:8:31)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\user.js:9:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+============================================================================
+        Tue Apr 09 2024 19:51:40 GMT+0700 (Indochina Time)
+        message: Cannot read properties of undefined (reading 'length')
+        stack: Error: Cannot read properties of undefined (reading 'length')
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.getDetailInfo (C:\ProjectFlutter\BackEndChat\src\api\controllers\user.js:8:31)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\user.js:9:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+============================================================================
+        Tue Apr 09 2024 19:51:52 GMT+0700 (Indochina Time)
+        message: Cannot read properties of undefined (reading 'length')
+        stack: Error: Cannot read properties of undefined (reading 'length')
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.getDetailInfo (C:\ProjectFlutter\BackEndChat\src\api\controllers\user.js:8:31)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\user.js:9:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+============================================================================
+        Tue Apr 09 2024 19:51:55 GMT+0700 (Indochina Time)
+        message: Unexpected non-whitespace character after JSON at position 105 (line 8 column 1)
+        stack: SyntaxError: Unexpected non-whitespace character after JSON at position 105 (line 8 column 1)
+    at JSON.parse (<anonymous>)
+    at parse (C:\ProjectFlutter\BackEndChat\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\ProjectFlutter\BackEndChat\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:231:16)
+    at done (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:515:28)
+    at endReadableNT (node:internal/streams/readable:1409:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+============================================================================
+        Tue Apr 09 2024 19:52:00 GMT+0700 (Indochina Time)
+        message: Cannot read properties of undefined (reading 'length')
+        stack: Error: Cannot read properties of undefined (reading 'length')
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.getDetailInfo (C:\ProjectFlutter\BackEndChat\src\api\controllers\user.js:8:31)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\user.js:9:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+============================================================================
+        Tue Apr 09 2024 19:52:46 GMT+0700 (Indochina Time)
+        message: Unexpected non-whitespace character after JSON at position 105 (line 8 column 1)
+        stack: SyntaxError: Unexpected non-whitespace character after JSON at position 105 (line 8 column 1)
+    at JSON.parse (<anonymous>)
+    at parse (C:\ProjectFlutter\BackEndChat\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\ProjectFlutter\BackEndChat\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:231:16)
+    at done (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:515:28)
+    at endReadableNT (node:internal/streams/readable:1409:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+============================================================================
+        Tue Apr 09 2024 19:52:53 GMT+0700 (Indochina Time)
+        message: Cannot read properties of undefined (reading 'length')
+        stack: Error: Cannot read properties of undefined (reading 'length')
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.getDetailInfo (C:\ProjectFlutter\BackEndChat\src\api\controllers\user.js:8:31)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\user.js:9:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+============================================================================
+        Tue Apr 09 2024 19:53:26 GMT+0700 (Indochina Time)
+        message: Cannot read properties of undefined (reading 'length')
+        stack: Error: Cannot read properties of undefined (reading 'length')
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.getDetailInfo (C:\ProjectFlutter\BackEndChat\src\api\controllers\user.js:8:31)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\user.js:9:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+============================================================================
+        Tue Apr 09 2024 19:54:23 GMT+0700 (Indochina Time)
+        message: Cannot read properties of undefined (reading 'length')
+        stack: Error: Cannot read properties of undefined (reading 'length')
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.getDetailInfo (C:\ProjectFlutter\BackEndChat\src\api\controllers\user.js:8:31)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\user.js:9:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+============================================================================
+        Tue Apr 09 2024 19:55:11 GMT+0700 (Indochina Time)
+        message: Unexpected non-whitespace character after JSON at position 105 (line 8 column 1)
+        stack: SyntaxError: Unexpected non-whitespace character after JSON at position 105 (line 8 column 1)
+    at JSON.parse (<anonymous>)
+    at parse (C:\ProjectFlutter\BackEndChat\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\ProjectFlutter\BackEndChat\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:231:16)
+    at done (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:515:28)
+    at endReadableNT (node:internal/streams/readable:1409:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+============================================================================
+        Tue Apr 09 2024 20:03:36 GMT+0700 (Indochina Time)
+        message: Thông tin tài khoản hoặc mật khẩu không chính xác!
+        stack: Error: Thông tin tài khoản hoặc mật khẩu không chính xác!
+    at Object.login (C:\ProjectFlutter\BackEndChat\src\api\controllers\user.js:201:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\ProjectFlutter\BackEndChat\src\api\routers\user.js:41:18
+============================================================================
+        Tue Apr 09 2024 20:03:42 GMT+0700 (Indochina Time)
+        message: Unexpected non-whitespace character after JSON at position 105 (line 8 column 1)
+        stack: SyntaxError: Unexpected non-whitespace character after JSON at position 105 (line 8 column 1)
+    at JSON.parse (<anonymous>)
+    at parse (C:\ProjectFlutter\BackEndChat\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\ProjectFlutter\BackEndChat\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:231:16)
+    at done (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:515:28)
+    at endReadableNT (node:internal/streams/readable:1409:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+============================================================================
+        Tue Apr 09 2024 20:03:51 GMT+0700 (Indochina Time)
+        message: Unexpected non-whitespace character after JSON at position 105 (line 8 column 1)
+        stack: SyntaxError: Unexpected non-whitespace character after JSON at position 105 (line 8 column 1)
+    at JSON.parse (<anonymous>)
+    at parse (C:\ProjectFlutter\BackEndChat\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\ProjectFlutter\BackEndChat\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:231:16)
+    at done (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:515:28)
+    at endReadableNT (node:internal/streams/readable:1409:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+============================================================================
+        Tue Apr 09 2024 20:04:10 GMT+0700 (Indochina Time)
+        message: Unexpected non-whitespace character after JSON at position 107 (line 8 column 1)
+        stack: SyntaxError: Unexpected non-whitespace character after JSON at position 107 (line 8 column 1)
+    at JSON.parse (<anonymous>)
+    at parse (C:\ProjectFlutter\BackEndChat\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\ProjectFlutter\BackEndChat\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:231:16)
+    at done (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:515:28)
+    at endReadableNT (node:internal/streams/readable:1409:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+============================================================================
+        Tue Apr 09 2024 20:04:20 GMT+0700 (Indochina Time)
+        message: Unexpected non-whitespace character after JSON at position 101 (line 6 column 3)
+        stack: SyntaxError: Unexpected non-whitespace character after JSON at position 101 (line 6 column 3)
+    at JSON.parse (<anonymous>)
+    at parse (C:\ProjectFlutter\BackEndChat\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\ProjectFlutter\BackEndChat\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:231:16)
+    at done (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:515:28)
+    at endReadableNT (node:internal/streams/readable:1409:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+============================================================================
+        Tue Apr 09 2024 20:04:23 GMT+0700 (Indochina Time)
+        message: Unexpected non-whitespace character after JSON at position 105 (line 8 column 1)
+        stack: SyntaxError: Unexpected non-whitespace character after JSON at position 105 (line 8 column 1)
+    at JSON.parse (<anonymous>)
+    at parse (C:\ProjectFlutter\BackEndChat\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\ProjectFlutter\BackEndChat\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:231:16)
+    at done (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:515:28)
+    at endReadableNT (node:internal/streams/readable:1409:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+============================================================================
+        Tue Apr 09 2024 20:05:50 GMT+0700 (Indochina Time)
+        message: Unexpected non-whitespace character after JSON at position 104 (line 8 column 1)
+        stack: SyntaxError: Unexpected non-whitespace character after JSON at position 104 (line 8 column 1)
+    at JSON.parse (<anonymous>)
+    at parse (C:\ProjectFlutter\BackEndChat\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\ProjectFlutter\BackEndChat\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:231:16)
+    at done (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:515:28)
+    at endReadableNT (node:internal/streams/readable:1409:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+============================================================================
+        Tue Apr 09 2024 20:09:13 GMT+0700 (Indochina Time)
+        message: Unexpected non-whitespace character after JSON at position 104 (line 8 column 1)
+        stack: SyntaxError: Unexpected non-whitespace character after JSON at position 104 (line 8 column 1)
+    at JSON.parse (<anonymous>)
+    at parse (C:\ProjectFlutter\BackEndChat\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\ProjectFlutter\BackEndChat\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:231:16)
+    at done (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:515:28)
+    at endReadableNT (node:internal/streams/readable:1409:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+============================================================================
+        Tue Apr 09 2024 20:09:14 GMT+0700 (Indochina Time)
+        message: Unexpected non-whitespace character after JSON at position 104 (line 8 column 1)
+        stack: SyntaxError: Unexpected non-whitespace character after JSON at position 104 (line 8 column 1)
+    at JSON.parse (<anonymous>)
+    at parse (C:\ProjectFlutter\BackEndChat\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\ProjectFlutter\BackEndChat\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:231:16)
+    at done (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:515:28)
+    at endReadableNT (node:internal/streams/readable:1409:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+============================================================================
+        Tue Apr 09 2024 20:09:15 GMT+0700 (Indochina Time)
+        message: Unexpected non-whitespace character after JSON at position 104 (line 8 column 1)
+        stack: SyntaxError: Unexpected non-whitespace character after JSON at position 104 (line 8 column 1)
+    at JSON.parse (<anonymous>)
+    at parse (C:\ProjectFlutter\BackEndChat\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\ProjectFlutter\BackEndChat\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:231:16)
+    at done (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:515:28)
+    at endReadableNT (node:internal/streams/readable:1409:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+============================================================================
+        Tue Apr 09 2024 20:10:33 GMT+0700 (Indochina Time)
+        message: Expected ',' or ']' after array element in JSON at position 12 (line 2 column 9)
+        stack: SyntaxError: Expected ',' or ']' after array element in JSON at position 12 (line 2 column 9)
+    at JSON.parse (<anonymous>)
+    at parse (C:\ProjectFlutter\BackEndChat\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\ProjectFlutter\BackEndChat\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:231:16)
+    at done (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:515:28)
+    at endReadableNT (node:internal/streams/readable:1409:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+============================================================================
+        Tue Apr 09 2024 20:10:33 GMT+0700 (Indochina Time)
+        message: Expected ',' or ']' after array element in JSON at position 12 (line 2 column 9)
+        stack: SyntaxError: Expected ',' or ']' after array element in JSON at position 12 (line 2 column 9)
+    at JSON.parse (<anonymous>)
+    at parse (C:\ProjectFlutter\BackEndChat\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\ProjectFlutter\BackEndChat\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:231:16)
+    at done (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:515:28)
+    at endReadableNT (node:internal/streams/readable:1409:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+============================================================================
+        Tue Apr 09 2024 20:10:48 GMT+0700 (Indochina Time)
+        message: Expected ',' or ']' after array element in JSON at position 12 (line 2 column 9)
+        stack: SyntaxError: Expected ',' or ']' after array element in JSON at position 12 (line 2 column 9)
+    at JSON.parse (<anonymous>)
+    at parse (C:\ProjectFlutter\BackEndChat\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\ProjectFlutter\BackEndChat\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:231:16)
+    at done (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:515:28)
+    at endReadableNT (node:internal/streams/readable:1409:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+============================================================================
+        Tue Apr 09 2024 20:10:52 GMT+0700 (Indochina Time)
+        message: Expected ',' or ']' after array element in JSON at position 12 (line 2 column 9)
+        stack: SyntaxError: Expected ',' or ']' after array element in JSON at position 12 (line 2 column 9)
+    at JSON.parse (<anonymous>)
+    at parse (C:\ProjectFlutter\BackEndChat\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\ProjectFlutter\BackEndChat\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:231:16)
+    at done (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:515:28)
+    at endReadableNT (node:internal/streams/readable:1409:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+============================================================================
+        Tue Apr 09 2024 20:13:10 GMT+0700 (Indochina Time)
+        message: Tài khoản không được để trống!
+        stack: Error: Tài khoản không được để trống!
+    at Object.register (C:\ProjectFlutter\BackEndChat\src\api\controllers\user.js:38:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\ProjectFlutter\BackEndChat\src\api\routers\user.js:17:18
+============================================================================
+        Tue Apr 09 2024 20:13:34 GMT+0700 (Indochina Time)
+        message: Tài khoản không được để trống!
+        stack: Error: Tài khoản không được để trống!
+    at Object.register (C:\ProjectFlutter\BackEndChat\src\api\controllers\user.js:38:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\ProjectFlutter\BackEndChat\src\api\routers\user.js:17:18
+============================================================================
+        Tue Apr 09 2024 20:13:47 GMT+0700 (Indochina Time)
+        message: Tài khoản không được để trống!
+        stack: Error: Tài khoản không được để trống!
+    at Object.register (C:\ProjectFlutter\BackEndChat\src\api\controllers\user.js:38:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\ProjectFlutter\BackEndChat\src\api\routers\user.js:17:18
+============================================================================
+        Tue Apr 09 2024 20:14:07 GMT+0700 (Indochina Time)
+        message: Tài khoản không được để trống!
+        stack: Error: Tài khoản không được để trống!
+    at Object.register (C:\ProjectFlutter\BackEndChat\src\api\controllers\user.js:38:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\ProjectFlutter\BackEndChat\src\api\routers\user.js:17:18
+============================================================================
+        Tue Apr 09 2024 20:14:30 GMT+0700 (Indochina Time)
+        message: Tài khoản không được để trống!
+        stack: Error: Tài khoản không được để trống!
+    at Object.register (C:\ProjectFlutter\BackEndChat\src\api\controllers\user.js:38:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\ProjectFlutter\BackEndChat\src\api\routers\user.js:17:18
+============================================================================
+        Tue Apr 09 2024 20:14:34 GMT+0700 (Indochina Time)
+        message: Tài khoản không được để trống!
+        stack: Error: Tài khoản không được để trống!
+    at Object.register (C:\ProjectFlutter\BackEndChat\src\api\controllers\user.js:38:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\ProjectFlutter\BackEndChat\src\api\routers\user.js:17:18
+============================================================================
+        Tue Apr 09 2024 20:15:06 GMT+0700 (Indochina Time)
+        message: Tài khoản không được để trống!
+        stack: Error: Tài khoản không được để trống!
+    at Object.register (C:\ProjectFlutter\BackEndChat\src\api\controllers\user.js:38:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\ProjectFlutter\BackEndChat\src\api\routers\user.js:17:18
+============================================================================
+        Tue Apr 09 2024 20:15:07 GMT+0700 (Indochina Time)
+        message: Tài khoản không được để trống!
+        stack: Error: Tài khoản không được để trống!
+    at Object.register (C:\ProjectFlutter\BackEndChat\src\api\controllers\user.js:38:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\ProjectFlutter\BackEndChat\src\api\routers\user.js:17:18
+============================================================================
+        Tue Apr 09 2024 20:15:08 GMT+0700 (Indochina Time)
+        message: Tài khoản không được để trống!
+        stack: Error: Tài khoản không được để trống!
+    at Object.register (C:\ProjectFlutter\BackEndChat\src\api\controllers\user.js:38:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\ProjectFlutter\BackEndChat\src\api\routers\user.js:17:18
+============================================================================
+        Tue Apr 09 2024 20:15:10 GMT+0700 (Indochina Time)
+        message: Tài khoản không được để trống!
+        stack: Error: Tài khoản không được để trống!
+    at Object.register (C:\ProjectFlutter\BackEndChat\src\api\controllers\user.js:38:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\ProjectFlutter\BackEndChat\src\api\routers\user.js:17:18
+============================================================================
+        Tue Apr 09 2024 20:15:22 GMT+0700 (Indochina Time)
+        message: Tài khoản đã tồn tại!
+        stack: Error: Tài khoản đã tồn tại!
+    at Object.register (C:\ProjectFlutter\BackEndChat\src\api\controllers\user.js:38:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\ProjectFlutter\BackEndChat\src\api\routers\user.js:17:18
+============================================================================
+        Tue Apr 09 2024 21:36:29 GMT+0700 (Indochina Time)
+        message: Table 'chat_v1.message' doesn't exist
+        stack: Error: Table 'chat_v1.message' doesn't exist
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.getListMessage (C:\ProjectFlutter\BackEndChat\src\api\controllers\message.js:5:33)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\message.js:7:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Tue Apr 09 2024 21:45:42 GMT+0700 (Indochina Time)
+        message: Table 'chat_v1.message' doesn't exist
+        stack: Error: Table 'chat_v1.message' doesn't exist
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.getListMessage (C:\ProjectFlutter\BackEndChat\src\api\controllers\message.js:5:33)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\message.js:7:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Tue Apr 09 2024 21:47:47 GMT+0700 (Indochina Time)
+        message: Table 'chat_v1.message' doesn't exist
+        stack: Error: Table 'chat_v1.message' doesn't exist
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.getListMessage (C:\ProjectFlutter\BackEndChat\src\api\controllers\message.js:5:33)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\message.js:7:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Tue Apr 09 2024 21:48:24 GMT+0700 (Indochina Time)
+        message: Table 'chat_v1.message' doesn't exist
+        stack: Error: Table 'chat_v1.message' doesn't exist
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.getListMessage (C:\ProjectFlutter\BackEndChat\src\api\controllers\message.js:5:33)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\message.js:7:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Tue Apr 09 2024 21:48:54 GMT+0700 (Indochina Time)
+        message: controller.getListMessage is not a function
+        stack: TypeError: controller.getListMessage is not a function
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\message.js:7:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:47:12)
+============================================================================
+        Tue Apr 09 2024 21:52:35 GMT+0700 (Indochina Time)
+        message: controller.getListMessage is not a function
+        stack: TypeError: controller.getListMessage is not a function
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:7:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:47:12)
+============================================================================
+        Tue Apr 09 2024 21:53:14 GMT+0700 (Indochina Time)
+        message: controller.getListMessage is not a function
+        stack: TypeError: controller.getListMessage is not a function
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:7:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:47:12)

@@ -20,21 +20,6 @@ router.post('/register', async (req, res, next) => {
     }
 })
 
-router.post('/register/volunteers', checkLogin, checkAdmin, async (req, res, next) => {
-    try {
-        res.json(await controller.registerVolunteers(req.body))
-    } catch (error) {
-        next(error)
-    }
-})
-
-router.post('/register/admin', checkLogin, checkAdmin, async (req, res, next) => {
-    try {
-        res.json(await controller.registerAdmin(req.body))
-    } catch (error) {
-        next(error)
-    }
-})
 
 router.post('/login', async (req, res, next) => {
     try {
