@@ -1,1 +1,15 @@
-GET http://localhost:3000/group/3c5f0e12-f673-11ee-954e-088fc368
+# #Lấy Group
+# GET http://localhost:3000/group/3c5f0e12-f673-11ee-954e-088fc368
+
+# #Lấy Member trong group đó
+# GET http://localhost:3000/group/member/c514dab1-7475-11ee-8f58-088fc768
+
+POST http://localhost:3000/group
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjNjNWYwZTEyLWY2NzMtMTFlZS05NTRlLTA4OGZjMzY4IiwiaWF0IjoxNzEyNjc5MzQ2LCJleHAiOjE3MTI3NjU3NDZ9.d_NHZhmny2PUPzaPYjv1kG_mFuyMIMPJvn3mj60-7zw
+Content-Type: application/json
+
+ {
+  "name": "Test",
+  "image": "jjj",
+  "id_user": "b5b3190c-5397-11ee-b610-089798d3",
+ }
