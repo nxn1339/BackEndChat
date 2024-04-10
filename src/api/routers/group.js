@@ -10,7 +10,7 @@ router.get('/:id_user', async (req, res, next) => {
     }
 })
 
-router.get('/member/:id_group', async (req, res, next) => {
+router.get('/member/:id_group' ,async (req, res, next) => {
     try {
         res.json(await controller.getListMember(req.params.id_group))
     } catch (error) {
@@ -21,6 +21,14 @@ router.get('/member/:id_group', async (req, res, next) => {
 router.post('/', async (req, res, next) => {
     try {
         res.json(await controller.createGroup(req.body))
+    } catch (error) {
+        next(error)
+    }
+})
+
+router.post('/member', async (req, res, next) => {
+    try {
+        res.json(await controller.addMember(req.body))
     } catch (error) {
         next(error)
     }

@@ -44,10 +44,25 @@ async function createGroup(group) {
                 '${group.name}',
                 '${group.image??""}',
                 '${group.id_user}')`
+        )    
+        return {
+            code: 200,
+            data: 'Tạo nhóm thành công!'
+        }
+    } catch (error) {
+        throw (error)
+    }
+}
+
+async function addMember(member) {
+    try {
+        await db.execute(
+            `INSERT INTO \`member\`(\`id_user\`, \`id_group\`) 
+            VALUES ('${member.id_user}','${member.id_group}')`
         )
         return {
             code: 200,
-            data: 'Tạo nhóm thành công !'
+            data: 'Thêm thành viên thành công !'
         }
     } catch (error) {
         throw (error)
@@ -57,5 +72,6 @@ async function createGroup(group) {
 module.exports = {
     getListGroup,
     getListMember,
-    createGroup
+    createGroup,
+    addMember
 }

@@ -1,0 +1,2 @@
+#Lấy tin nhắn của 1 nhóm
+GET http://localhost:3000/chat/55d99e56-f749-11ee-9291-088fc368
