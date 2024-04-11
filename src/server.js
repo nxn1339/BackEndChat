@@ -48,17 +48,28 @@ app.use((err, req, res, next) => {
     })
 })
 
-io.on('connection',function(socket){
-    console.log("co thang ket noi");
+
+io.on('connection', (socket) => {
+    console.log("Có một người dùng kết nối.");
+
+    // Lắng nghe sự kiện 'disconnect'
     socket.on('disconnect', () => {
-        console.log('User disconnected');
+        console.log('Người dùng đã ngắt kết nối.');
+        // Không cần phải xóa thông tin người dùng, vì nó đã tự động bị xóa khi kết nối socket đó bị đóng
     });
 
-    socket.on('chat message', (msg) => {
-        console.log('message: ' + msg);
-        io.emit('chat message', msg);
+    // Lắng nghe sự kiện 'chat message'
+    socket.on('chat message', (data) => {
+        const { senderId, message } = data;
+        console.log('Tin nhắn từ người dùng', senderId + ': ' + message);
+        
+        // Kiểm tra xem receiverId có tồn tại không
+       
+            io.emit('chat message', message);
+       
     });
-})
+});
+
 
 server.listen(port, () => {
     db.execute('SET GLOBAL event_scheduler="ON"')

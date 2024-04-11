@@ -1,5 +1,5 @@
 #Lấy Group
-GET http://localhost:3000/group/3c5f0e12-f673-11ee-954e-088fc368
+GET http://localhost:3000/group/b5b3190c-5397-11ee-b610-089798d3
 
 #Lấy Member trong group đó
 GET http://localhost:3000/group/member/c514dab1-7475-11ee-8f58-088fc768
