@@ -10,4 +10,12 @@ router.get('/:id_group', async (req, res, next) => {
     }
 })
 
+router.post('/', async (req, res, next) => {
+    try {
+        res.json(await controller.addChat(req.body))
+    } catch (error) {
+        next(error)
+    }
+})
+
 module.exports = router

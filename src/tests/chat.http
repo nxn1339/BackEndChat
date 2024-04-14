@@ -1,2 +1,13 @@
 #Lấy tin nhắn của 1 nhóm
-GET http://localhost:3000/chat/55d99e56-f749-11ee-9291-088fc368
+GET http://localhost:3000/chat/d8ee4cde-f812-11ee-97b9-088fc368
+
+POST  http://localhost:3000/chat
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjNjNWYwZTEyLWY2NzMtMTFlZS05NTRlLTA4OGZjMzY4IiwiaWF0IjoxNzEyNjc5MzQ2LCJleHAiOjE3MTI3NjU3NDZ9.d_NHZhmny2PUPzaPYjv1kG_mFuyMIMPJvn3mj60-7zw
+Content-Type: application/json
+
+{
+    "content": "hello",
+    "image": "",
+    "id_group": "",
+    "id_user":""
+}

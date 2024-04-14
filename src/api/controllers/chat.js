@@ -17,6 +17,26 @@ async function getListChat(id_group) {
     }
 }
 
+async function addChat(chat) {
+    try {
+        await db.execute(
+            `INSERT INTO \`chat\`(\`id\`, \`content\`, \`image\`, \`id_group\`, \`id_user\`) 
+            VALUES (
+                uuid(),
+                '${chat.content}',
+                '${chat.image}',
+                '${chat.id_group}',
+                '${chat.id_user}')`)
+        return {
+            code: 200,
+            data: "Thêm thành công đoạn chat"
+        }
+    } catch (error) {
+        throw (error)
+    }
+}
+
 module.exports = {
-    getListChat
+    getListChat,
+    addChat
 }

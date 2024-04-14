@@ -1035,3 +1035,73 @@ log============================================================================
     at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
     at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
     at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+============================================================================
+        Fri Apr 12 2024 21:19:06 GMT+0700 (Indochina Time)
+        message: Thông tin tài khoản hoặc mật khẩu không chính xác!
+        stack: Error: Thông tin tài khoản hoặc mật khẩu không chính xác!
+    at Object.login (C:\ProjectFlutter\BackEndChat\src\api\controllers\user.js:92:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\ProjectFlutter\BackEndChat\src\api\routers\user.js:26:18
+============================================================================
+        Fri Apr 12 2024 21:48:14 GMT+0700 (Indochina Time)
+        message: "INSERT INTO `chat" is not a function
+        stack: TypeError: "INSERT INTO `chat" is not a function
+    at Object.addChat (C:\ProjectFlutter\BackEndChat\src\api\controllers\chat.js:23:33)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\chat.js:15:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:175:3)
+============================================================================
+        Fri Apr 12 2024 21:49:04 GMT+0700 (Indochina Time)
+        message: "INSERT INTO `chat" is not a function
+        stack: TypeError: "INSERT INTO `chat" is not a function
+    at Object.addChat (C:\ProjectFlutter\BackEndChat\src\api\controllers\chat.js:23:33)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\chat.js:15:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:175:3)
+============================================================================
+        Fri Apr 12 2024 21:49:45 GMT+0700 (Indochina Time)
+        message: "INSERT INTO `chat" is not a function
+        stack: TypeError: "INSERT INTO `chat" is not a function
+    at Object.addChat (C:\ProjectFlutter\BackEndChat\src\api\controllers\chat.js:23:33)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\chat.js:15:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:175:3)
+============================================================================
+        Fri Apr 12 2024 22:15:04 GMT+0700 (Indochina Time)
+        message: Thông tin tài khoản hoặc mật khẩu không chính xác!
+        stack: Error: Thông tin tài khoản hoặc mật khẩu không chính xác!
+    at Object.login (C:\ProjectFlutter\BackEndChat\src\api\controllers\user.js:92:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\ProjectFlutter\BackEndChat\src\api\routers\user.js:26:18
+============================================================================
+        Fri Apr 12 2024 22:48:49 GMT+0700 (Indochina Time)
+        message: Thông tin tài khoản hoặc mật khẩu không chính xác!
+        stack: Error: Thông tin tài khoản hoặc mật khẩu không chính xác!
+    at Object.login (C:\ProjectFlutter\BackEndChat\src\api\controllers\user.js:92:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\ProjectFlutter\BackEndChat\src\api\routers\user.js:26:18
+============================================================================
+        Fri Apr 12 2024 23:26:35 GMT+0700 (Indochina Time)
+        message: Thông tin tài khoản hoặc mật khẩu không chính xác!
+        stack: Error: Thông tin tài khoản hoặc mật khẩu không chính xác!
+    at Object.login (C:\ProjectFlutter\BackEndChat\src\api\controllers\user.js:92:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\ProjectFlutter\BackEndChat\src\api\routers\user.js:26:18
