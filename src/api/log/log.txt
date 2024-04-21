@@ -1105,3 +1105,17 @@ log============================================================================
     at Object.login (C:\ProjectFlutter\BackEndChat\src\api\controllers\user.js:92:27)
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
     at async C:\ProjectFlutter\BackEndChat\src\api\routers\user.js:26:18
+============================================================================
+        Thu Apr 18 2024 22:08:32 GMT+0700 (Indochina Time)
+        message: Email đã tồn tại!
+        stack: Error: Email đã tồn tại!
+    at Object.register (C:\ProjectFlutter\BackEndChat\src\api\controllers\user.js:44:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\ProjectFlutter\BackEndChat\src\api\routers\user.js:17:18
+============================================================================
+        Sun Apr 21 2024 20:59:07 GMT+0700 (Indochina Time)
+        message: Thông tin tài khoản hoặc mật khẩu không chính xác!
+        stack: Error: Thông tin tài khoản hoặc mật khẩu không chính xác!
+    at Object.login (C:\ProjectFlutter\BackEndChat\src\api\controllers\user.js:92:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\ProjectFlutter\BackEndChat\src\api\routers\user.js:26:18

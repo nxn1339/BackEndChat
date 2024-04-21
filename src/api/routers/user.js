@@ -53,4 +53,12 @@ router.delete('/:id', checkLogin, checkDeleteUser, async (req, res, next) => {
     }
 })
 
+router.get('/', async (req, res, next) => {
+    try {
+        res.json(await controller.getListUser())
+    } catch (error) {
+        next(error)
+    }
+})
+
 module.exports = router

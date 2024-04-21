@@ -201,11 +201,27 @@ async function deleteUser(id) {
     }
 }
 
+async function getListUser() {
+    try {
+        const data = await db.execute(
+            `SELECT \`id\`, \`name\`, \`avatar\` FROM \`user\``
+        )
+
+        return {
+            code: 200,
+            data: data
+        }
+    } catch (error) {
+        throw error
+    }
+}
+
 module.exports = {
     getDetailInfo,
     register,
     login,
     update,
     changePassword,
-    deleteUser
+    deleteUser,
+    getListUser
 }
