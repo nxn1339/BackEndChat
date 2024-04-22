@@ -44,10 +44,13 @@ async function createGroup(group) {
                 '${group.name}',
                 '${group.image??""}',
                 '${group.id_user}')`
+                
         )    
+        const result = await db.execute(
+            `SELECT id FROM \`group\` WHERE id = LAST_INSERT_ID()`)
         return {
             code: 200,
-            data: 'Tạo nhóm thành công!'
+            data: result[0]
         }
     } catch (error) {
         throw (error)
