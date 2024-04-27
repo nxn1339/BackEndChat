@@ -47,7 +47,7 @@ async function createGroup(group) {
                 
         )    
         const result = await db.execute(
-            `SELECT id FROM \`group\` WHERE id = LAST_INSERT_ID()`)
+            `SELECT MAX(id) FROM \`group\` WHERE 1`)
         return {
             code: 200,
             data: result[0]
