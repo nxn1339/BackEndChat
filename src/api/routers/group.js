@@ -34,4 +34,12 @@ router.post('/member', async (req, res, next) => {
     }
 })
 
+router.delete('/:id', async (req, res, next) => {
+    try {
+        res.json(await controller.deleteGroup(req.params.id))
+    } catch (error) {
+        next(error)
+    }
+})
+
 module.exports = router

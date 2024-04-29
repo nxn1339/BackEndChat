@@ -62,8 +62,7 @@ io.on('connection', (socket) => {
     socket.on('chat message', (data) => {
         const { id, content,image, id_group,id_user,name,avatar} = data;
         console.log('Tin nhắn từ người dùng', id_user + ': ' + content);
-        io.emit('chat message', {content,id_user,avatar,image,name,id_group});
-       
+        io.emit('chat message', {content,id_user,avatar,image,name,id_group});     
     });
 });
 
