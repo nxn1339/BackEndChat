@@ -42,4 +42,12 @@ router.delete('/:id', async (req, res, next) => {
     }
 })
 
+router.delete('/member/:id_user', async (req, res, next) => {
+    try {
+        res.json(await controller.deleteMember(req.params.id_user))
+    } catch (error) {
+        next(error)
+    }
+})
+
 module.exports = router

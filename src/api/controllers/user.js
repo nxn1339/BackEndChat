@@ -216,6 +216,28 @@ async function getListUser() {
     }
 }
 
+async function getListUserNotInGroup(id_group) {
+    try {
+        const data = await db.execute(
+            `SELECT \`id\`, \`name\`, \`avatar\` 
+            FROM \`user\`
+            WHERE id NOT IN (
+                SELECT user.id 
+                FROM \`user\`
+                INNER JOIN member ON member.id_user = user.id 
+                WHERE member.id_group = '${id_group}'
+            );`
+        )
+
+        return {
+            code: 200,
+            data: data
+        }
+    } catch (error) {
+        throw error
+    }
+}
+
 module.exports = {
     getDetailInfo,
     register,
@@ -223,5 +245,6 @@ module.exports = {
     update,
     changePassword,
     deleteUser,
-    getListUser
+    getListUser,
+    getListUserNotInGroup
 }

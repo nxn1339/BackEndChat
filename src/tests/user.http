@@ -1,7 +1,9 @@
 ### User: Detail
 GET http://localhost:3000/user/b5b3190c-5397-11ee-b610-089798d3
-
+## Lấy tất cả user
 GET http://localhost:3000/user
+## Lấy user ko có trong nhóm đó (truyền id_group vào)
+GET http://localhost:3000/user/member/76d4ee57-088a-11ef-aa1b-088fc368
 
 
 ### User: Register

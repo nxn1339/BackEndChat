@@ -86,10 +86,25 @@ async function deleteGroup(id) {
     }
 }
 
+async function deleteMember(id_user) {
+    try {
+        await db.execute(
+           `DELETE FROM \`member\` WHERE \`id_user\` = '${id_user}'`
+        )
+        return {
+            code: 200,
+            data: 'Xóa nhóm thành công!'
+        }
+    } catch (error) {
+        throw (error)
+    }
+}
+
 module.exports = {
     getListGroup,
     getListMember,
     createGroup,
     addMember,
-    deleteGroup
+    deleteGroup,
+    deleteMember
 }
