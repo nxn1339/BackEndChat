@@ -18,4 +18,12 @@ router.post('/', async (req, res, next) => {
     }
 })
 
+router.get('/last/:id_group', async (req, res, next) => {
+    try {
+        res.json(await controller.getLastChat(req.params.id_group))
+    } catch (error) {
+        next(error)
+    }
+})
+
 module.exports = router
