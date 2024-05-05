@@ -60,10 +60,19 @@ io.on('connection', (socket) => {
 
     // Lắng nghe sự kiện 'chat message'
     socket.on('chat message', (data) => {
-        const { id, content,image, time,id_group,id_user,name,avatar} = data;
+        const { id, content,image, time,id_group,id_user,name,avatar,} = data;
         console.log('Tin nhắn từ người dùng', id_user + ': ' + content);
-        io.emit('chat message', {content,time,id_user,avatar,image,name,id_group});     
+        io.emit('chat message', {content,time,id_user,avatar,image,name,id_group}); 
+    
     });
+     // Lắng nghe sự kiện 'readMessage'
+     socket.on('readMessage', (data) => {
+        const {id_group,id_user,read_message} = data;     
+        io.emit('readMessage',{id_group,id_user,read_message})
+        console.log('Tin nhắn từ người dùng', id_user + ': ' + read_message);
+    });
+
+    
 });
 
 

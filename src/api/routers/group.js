@@ -48,6 +48,22 @@ router.delete('/member/:id_user', async (req, res, next) => {
     } catch (error) {
         next(error)
     }
+
+ 
 })
+
+router.put('/', async (req, res, next) => {
+    try {
+        res.json(await controller.updateReadMessage(req.body))
+    } catch (error) {
+        next(error)
+    }})
+
+ router.get('/:id_user/:id_group', async (req, res, next) => {
+     try {
+         res.json(await controller.getStatusMessage(req.params.id_user,req.params.id_group))
+     } catch (error) {
+         next(error)
+     }})
 
 module.exports = router

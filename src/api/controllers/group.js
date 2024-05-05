@@ -100,11 +100,41 @@ async function deleteMember(id_user) {
     }
 }
 
+async function updateReadMessage(member) {
+    try {
+        await db.execute(
+           `UPDATE \`member\` SET \`read_message\`='0' WHERE id_group = '${member.id_group}' and id_user = '${member.id_user}'`
+        )
+        return {
+            code: 200,
+            data: 'Đã đọc tin nhắn này!'
+        }
+    } catch (error) {
+        throw (error)
+    }
+}
+
+async function getStatusMessage(id_user,id_group) {
+    try {
+        const result = await db.execute(
+            `SELECT id_user, id_group, read_message 
+            FROM \`member\` WHERE \`id_user\` = '${id_user}' and \`id_group\`= '${id_group}'`)
+        return {
+            code: 200,
+            data: result
+        }
+    } catch (error) {
+        throw (error)
+    }
+}
+
 module.exports = {
     getListGroup,
     getListMember,
     createGroup,
     addMember,
     deleteGroup,
-    deleteMember
+    deleteMember,
+    updateReadMessage,
+    getStatusMessage
 }
