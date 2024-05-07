@@ -2850,3 +2850,187 @@ log============================================================================
     at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
     at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
     at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Tue May 07 2024 22:00:06 GMT+0700 (Indochina Time)
+        message: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b5b3190c-5397-11ee-b610-089798d3 
+                WHERE id = 'bd227686-0bcb-1...' at line 3
+        stack: Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b5b3190c-5397-11ee-b610-089798d3 
+                WHERE id = 'bd227686-0bcb-1...' at line 3
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.updateGroup (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:134:22)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:71:39
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Tue May 07 2024 22:00:19 GMT+0700 (Indochina Time)
+        message: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b5b3190c-5397-11ee-b610-089798d3 
+                WHERE id = 'bd227686-0bcb-1...' at line 3
+        stack: Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b5b3190c-5397-11ee-b610-089798d3 
+                WHERE id = 'bd227686-0bcb-1...' at line 3
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.updateGroup (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:134:22)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:71:39
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Tue May 07 2024 22:00:51 GMT+0700 (Indochina Time)
+        message: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b5b3190c-5397-11ee-b610-089798d3 
+                WHERE id = 'bd227686-0bcb-1...' at line 3
+        stack: Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b5b3190c-5397-11ee-b610-089798d3 
+                WHERE id = 'bd227686-0bcb-1...' at line 3
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.updateGroup (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:134:22)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:71:39
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Tue May 07 2024 22:02:26 GMT+0700 (Indochina Time)
+        message: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b5b3190c-5397-11ee-b610-089798d3 
+                WHERE id = 'bd227686-0bcb-1...' at line 3
+        stack: Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b5b3190c-5397-11ee-b610-089798d3 
+                WHERE id = 'bd227686-0bcb-1...' at line 3
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.updateGroup (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:134:22)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:71:39
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Tue May 07 2024 22:03:41 GMT+0700 (Indochina Time)
+        message: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b5b3190c-5397-11ee-b610-089798d3 
+                WHERE id = 'bd227686-0bcb-1...' at line 3
+        stack: Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b5b3190c-5397-11ee-b610-089798d3 
+                WHERE id = 'bd227686-0bcb-1...' at line 3
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.updateGroup (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:134:22)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:71:39
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Tue May 07 2024 22:09:03 GMT+0700 (Indochina Time)
+        message: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b5b3190c-5397-11ee-b610-089798d3 
+                WHERE `id` = 'bd227686-0bcb...' at line 3
+        stack: Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b5b3190c-5397-11ee-b610-089798d3 
+                WHERE `id` = 'bd227686-0bcb...' at line 3
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.updateGroup (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:134:22)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:71:39
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Tue May 07 2024 22:10:36 GMT+0700 (Indochina Time)
+        message: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b5b3190c-5397-11ee-b610-089798d3'
+                WHERE `id` = 'bd227686-0bcb...' at line 3
+        stack: Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b5b3190c-5397-11ee-b610-089798d3'
+                WHERE `id` = 'bd227686-0bcb...' at line 3
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.updateGroup (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:134:22)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:71:39
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Tue May 07 2024 22:11:00 GMT+0700 (Indochina Time)
+        message: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b5b3190c-5397-11ee-b610-089798d3'
+                WHERE `id` = 'bd227686-0bcb...' at line 3
+        stack: Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b5b3190c-5397-11ee-b610-089798d3'
+                WHERE `id` = 'bd227686-0bcb...' at line 3
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.updateGroup (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:134:22)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:71:39
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Tue May 07 2024 22:13:33 GMT+0700 (Indochina Time)
+        message: Duplicate entry '3c5f0e12-f673-11ee-954e-088fc368-bd227686-0bcb-11ef-812e-088f...' for key 'id_user'
+        stack: Error: Duplicate entry '3c5f0e12-f673-11ee-954e-088fc368-bd227686-0bcb-11ef-812e-088f...' for key 'id_user'
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.addMember (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:62:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:31:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Tue May 07 2024 22:13:33 GMT+0700 (Indochina Time)
+        message: Duplicate entry '8a3eae53-fd95-11ee-bd44-088fc368-bd227686-0bcb-11ef-812e-088f...' for key 'id_user'
+        stack: Error: Duplicate entry '8a3eae53-fd95-11ee-bd44-088fc368-bd227686-0bcb-11ef-812e-088f...' for key 'id_user'
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.addMember (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:62:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:31:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Tue May 07 2024 22:13:33 GMT+0700 (Indochina Time)
+        message: Duplicate entry 'ca3eae53-fd95-11ee-bd44-088fc368-bd227686-0bcb-11ef-812e-088f...' for key 'id_user'
+        stack: Error: Duplicate entry 'ca3eae53-fd95-11ee-bd44-088fc368-bd227686-0bcb-11ef-812e-088f...' for key 'id_user'
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.addMember (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:62:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:31:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Tue May 07 2024 22:13:33 GMT+0700 (Indochina Time)
+        message: Duplicate entry 'oa3eae53-fd95-11ee-bd44-088fc368-bd227686-0bcb-11ef-812e-088f...' for key 'id_user'
+        stack: Error: Duplicate entry 'oa3eae53-fd95-11ee-bd44-088fc368-bd227686-0bcb-11ef-812e-088f...' for key 'id_user'
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.addMember (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:62:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:31:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)

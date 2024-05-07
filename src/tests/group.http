@@ -14,6 +14,15 @@ PUT http://localhost:3000/group
   "id_user":""
 }
 
+#Thay đổi tên ảnh hoặc chủ nhóm
+PUT http://localhost:3000/group/Change
+{
+  "id":"",
+  "name":"",
+  "image": "",
+  "id_user":""
+}
+
 #Tạo group
 POST http://localhost:3000/group
 Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjNjNWYwZTEyLWY2NzMtMTFlZS05NTRlLTA4OGZjMzY4IiwiaWF0IjoxNzEyNjc5MzQ2LCJleHAiOjE3MTI3NjU3NDZ9.d_NHZhmny2PUPzaPYjv1kG_mFuyMIMPJvn3mj60-7zw

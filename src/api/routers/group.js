@@ -66,4 +66,11 @@ router.put('/', async (req, res, next) => {
          next(error)
      }})
 
+     router.put('/Change', async (req, res, next) => {
+        try {
+            res.json(await controller.updateGroup(req.body))
+        } catch (error) {
+            next(error)
+        }})
+
 module.exports = router

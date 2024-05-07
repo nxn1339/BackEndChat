@@ -128,6 +128,35 @@ async function getStatusMessage(id_user,id_group) {
     }
 }
 
+async function updateGroup(group) {
+    try {
+        if(group.image!='' || group!=null){
+            await db.execute(
+                `UPDATE \`group\` SET           
+                \`name\`='${group.name}',
+                \`image\`='${group.image}',
+                \`id_user\`='${group.id_user}' 
+                WHERE id = '${group.id}'`
+            )
+        }
+        else{
+            await db.execute(
+                `UPDATE \`group\` SET           
+                \`name\`='${group.name}',
+                \`id_user\`='${group.id_user}' 
+                WHERE id = '${group.id}'`
+            )
+        }     
+        return {
+            code: 200,
+            data: 'Cập nhật nhóm thành công!'
+        }
+    } catch (error) {
+        throw (error)
+    }
+}
+
+
 module.exports = {
     getListGroup,
     getListMember,
@@ -136,5 +165,6 @@ module.exports = {
     deleteGroup,
     deleteMember,
     updateReadMessage,
-    getStatusMessage
+    getStatusMessage,
+    updateGroup
 }
