@@ -3,7 +3,7 @@ const db = require('../helpers/database')
 async function getListGroup(id_user) {
     try {
         const result = await db.execute(
-            `SELECT g.id, g.id_user as Owner, g.image, g.name 
+            `SELECT g.id, g.id_user as Owner, g.image, g.name, g.type
                 FROM \`group\` AS g 
                 INNER JOIN member AS m ON g.id = m.id_group 
                 WHERE m.id_user = '${id_user}';`)
@@ -38,12 +38,13 @@ async function getListMember(id_group) {
 async function createGroup(group) {
     try {
         await db.execute(
-            `INSERT INTO \`group\`(\`id\`, \`name\`, \`image\`, \`id_user\`) 
+            `INSERT INTO \`group\`(\`id\`, \`name\`, \`image\`, \`id_user\`,\`type\`) 
             VALUES (
                 uuid(),
                 '${group.name}',
                 '${group.image??""}',
-                '${group.id_user}')`
+                '${group.id_user}'
+                '${group.type}')`
                 
         )    
         const result = await db.execute(

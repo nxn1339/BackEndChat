@@ -20,7 +20,8 @@ PUT http://localhost:3000/group/Change
   "id":"",
   "name":"",
   "image": "",
-  "id_user":""
+  "id_user":"",
+  "type"
 }
 
 #Tạo group
