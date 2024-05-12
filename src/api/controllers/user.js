@@ -185,22 +185,6 @@ async function changePassword(id, user) {
     }
 }
 
-async function deleteUser(id) {
-    try {
-        await db.execute(
-            `DELETE FROM \`user\`
-            WHERE \`id\` = '${id}'`
-        )
-
-        return {
-            code: 200,
-            message: "Đã xoá người dùng khỏi hệ thống!"
-        }
-    } catch (error) {
-        throw(error)
-    }
-}
-
 async function getListUser() {
     try {
         const data = await db.execute(
@@ -244,7 +228,6 @@ module.exports = {
     login,
     update,
     changePassword,
-    deleteUser,
     getListUser,
     getListUserNotInGroup
 }

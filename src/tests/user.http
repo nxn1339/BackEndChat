@@ -17,28 +17,6 @@ Content-Type: application/json
   "email": "admin@gmail.com"
  }
 
- ### User: Register volunteers
-POST http://localhost:3000/user/register/volunteers
-Content-Type: application/json
-
- {
-  "name": "Volunteers",
-  "username": "admin",
-  "password": "1234",
-  "email": "admin@gmail.com"
- }
-
- ### User: Register admin
-POST http://localhost:3000/user/register/admin
-Content-Type: application/json
-
- {
-  "name": "Admin",
-  "username": "admin",
-  "password": "1234",
-  "email": "admin@gmail.com"
- }
-
 ### User: login
 POST http://localhost:3000/user/login
 Content-Type: application/json
@@ -71,6 +49,3 @@ Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImI1YjMxOTBjL
   "password": "1234"
 }
 
-### User: delete user
-DELETE http://localhost:3000/user/98755211-6e39-11ee-8326-089798d3
-Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Ijk4NzU1MjExLTZlMzktMTFlZS04MzI2LTA4OTc5OGQzIiwiaWF0IjoxNjk3NjkwNDU2LCJleHAiOjE2OTc3NzY4NTZ9.h37imhJaX7PzpaaaN9kOf1FEIDgSDnVl8LgwVx8jBvU

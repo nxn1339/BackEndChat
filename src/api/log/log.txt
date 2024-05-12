@@ -3034,3 +3034,780 @@ log============================================================================
     at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
     at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
     at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Sun May 12 2024 16:57:08 GMT+0700 (Indochina Time)
+        message: Mật khẩu cũ không chính xác!
+        stack: Error: Mật khẩu cũ không chính xác!
+    at Object.changePassword (C:\ProjectFlutter\BackEndChat\src\api\controllers\user.js:168:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\ProjectFlutter\BackEndChat\src\api\routers\user.js:42:18
+============================================================================
+        Sun May 12 2024 17:34:35 GMT+0700 (Indochina Time)
+        message: Email đã tồn tại!
+        stack: Error: Email đã tồn tại!
+    at Object.register (C:\ProjectFlutter\BackEndChat\src\api\controllers\user.js:44:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\ProjectFlutter\BackEndChat\src\api\routers\user.js:17:18
+============================================================================
+        Sun May 12 2024 18:11:17 GMT+0700 (Indochina Time)
+        message: Tài khoản đã tồn tại!
+        stack: Error: Tài khoản đã tồn tại!
+    at Object.register (C:\ProjectFlutter\BackEndChat\src\api\controllers\user.js:38:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\ProjectFlutter\BackEndChat\src\api\routers\user.js:17:18
+============================================================================
+        Sun May 12 2024 18:12:15 GMT+0700 (Indochina Time)
+        message: Tài khoản đã tồn tại!
+        stack: Error: Tài khoản đã tồn tại!
+    at Object.register (C:\ProjectFlutter\BackEndChat\src\api\controllers\user.js:38:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\ProjectFlutter\BackEndChat\src\api\routers\user.js:17:18
+============================================================================
+        Sun May 12 2024 18:12:56 GMT+0700 (Indochina Time)
+        message: Email không hợp lệ!
+        stack: Error: Email không hợp lệ!
+    at Object.register (C:\ProjectFlutter\BackEndChat\src\api\controllers\user.js:44:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\ProjectFlutter\BackEndChat\src\api\routers\user.js:17:18
+============================================================================
+        Sun May 12 2024 18:41:20 GMT+0700 (Indochina Time)
+        message: Column count doesn't match value count at row 1
+        stack: Error: Column count doesn't match value count at row 1
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.createGroup (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:40:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:23:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Sun May 12 2024 18:41:46 GMT+0700 (Indochina Time)
+        message: Column count doesn't match value count at row 1
+        stack: Error: Column count doesn't match value count at row 1
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.createGroup (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:40:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:23:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Sun May 12 2024 18:43:41 GMT+0700 (Indochina Time)
+        message: Column count doesn't match value count at row 1
+        stack: Error: Column count doesn't match value count at row 1
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.createGroup (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:40:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:23:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Sun May 12 2024 18:44:51 GMT+0700 (Indochina Time)
+        message: Column count doesn't match value count at row 1
+        stack: Error: Column count doesn't match value count at row 1
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.createGroup (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:40:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:23:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Sun May 12 2024 18:45:59 GMT+0700 (Indochina Time)
+        message: Column count doesn't match value count at row 1
+        stack: Error: Column count doesn't match value count at row 1
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.createGroup (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:40:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:23:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Sun May 12 2024 18:46:10 GMT+0700 (Indochina Time)
+        message: Column count doesn't match value count at row 1
+        stack: Error: Column count doesn't match value count at row 1
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.createGroup (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:40:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:23:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Sun May 12 2024 18:47:05 GMT+0700 (Indochina Time)
+        message: Column count doesn't match value count at row 1
+        stack: Error: Column count doesn't match value count at row 1
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.createGroup (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:40:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:23:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Sun May 12 2024 18:48:02 GMT+0700 (Indochina Time)
+        message: Column count doesn't match value count at row 1
+        stack: Error: Column count doesn't match value count at row 1
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.createGroup (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:40:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:23:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Sun May 12 2024 18:49:00 GMT+0700 (Indochina Time)
+        message: Column count doesn't match value count at row 1
+        stack: Error: Column count doesn't match value count at row 1
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.createGroup (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:40:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:23:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Sun May 12 2024 18:49:14 GMT+0700 (Indochina Time)
+        message: Column count doesn't match value count at row 1
+        stack: Error: Column count doesn't match value count at row 1
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.createGroup (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:40:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:23:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Sun May 12 2024 18:51:18 GMT+0700 (Indochina Time)
+        message: Column count doesn't match value count at row 1
+        stack: Error: Column count doesn't match value count at row 1
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.createGroup (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:40:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:23:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Sun May 12 2024 18:53:50 GMT+0700 (Indochina Time)
+        message: Column count doesn't match value count at row 1
+        stack: Error: Column count doesn't match value count at row 1
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.createGroup (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:40:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:23:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Sun May 12 2024 18:54:18 GMT+0700 (Indochina Time)
+        message: Column count doesn't match value count at row 1
+        stack: Error: Column count doesn't match value count at row 1
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.createGroup (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:40:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:23:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Sun May 12 2024 18:54:23 GMT+0700 (Indochina Time)
+        message: Column count doesn't match value count at row 1
+        stack: Error: Column count doesn't match value count at row 1
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.createGroup (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:40:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:23:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Sun May 12 2024 18:55:07 GMT+0700 (Indochina Time)
+        message: Column count doesn't match value count at row 1
+        stack: Error: Column count doesn't match value count at row 1
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.createGroup (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:40:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:23:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Sun May 12 2024 18:57:52 GMT+0700 (Indochina Time)
+        message: Column count doesn't match value count at row 1
+        stack: Error: Column count doesn't match value count at row 1
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.createGroup (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:40:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:23:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Sun May 12 2024 18:59:07 GMT+0700 (Indochina Time)
+        message: Duplicate entry '3c5f0e12-f673-11ee-954e-088fc368-bd227686-0bcb-11ef-812e-088f...' for key 'id_user'
+        stack: Error: Duplicate entry '3c5f0e12-f673-11ee-954e-088fc368-bd227686-0bcb-11ef-812e-088f...' for key 'id_user'
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.addMember (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:65:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:31:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Sun May 12 2024 18:59:41 GMT+0700 (Indochina Time)
+        message: Duplicate entry '3c5f0e12-f673-11ee-954e-088fc368-bd227686-0bcb-11ef-812e-088f...' for key 'id_user'
+        stack: Error: Duplicate entry '3c5f0e12-f673-11ee-954e-088fc368-bd227686-0bcb-11ef-812e-088f...' for key 'id_user'
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.addMember (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:65:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:31:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Sun May 12 2024 18:59:41 GMT+0700 (Indochina Time)
+        message: Duplicate entry '5993db35-1050-11ef-be87-088fc368-bd227686-0bcb-11ef-812e-088f...' for key 'id_user'
+        stack: Error: Duplicate entry '5993db35-1050-11ef-be87-088fc368-bd227686-0bcb-11ef-812e-088f...' for key 'id_user'
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.addMember (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:65:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:31:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Sun May 12 2024 18:59:41 GMT+0700 (Indochina Time)
+        message: Duplicate entry '8a3eae53-fd95-11ee-bd44-088fc368-bd227686-0bcb-11ef-812e-088f...' for key 'id_user'
+        stack: Error: Duplicate entry '8a3eae53-fd95-11ee-bd44-088fc368-bd227686-0bcb-11ef-812e-088f...' for key 'id_user'
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.addMember (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:65:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:31:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Sun May 12 2024 18:59:41 GMT+0700 (Indochina Time)
+        message: Duplicate entry '9e5d5bdd-1050-11ef-be87-088fc368-bd227686-0bcb-11ef-812e-088f...' for key 'id_user'
+        stack: Error: Duplicate entry '9e5d5bdd-1050-11ef-be87-088fc368-bd227686-0bcb-11ef-812e-088f...' for key 'id_user'
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.addMember (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:65:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:31:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Sun May 12 2024 18:59:41 GMT+0700 (Indochina Time)
+        message: Duplicate entry 'ca3eae53-fd95-11ee-bd44-088fc368-bd227686-0bcb-11ef-812e-088f...' for key 'id_user'
+        stack: Error: Duplicate entry 'ca3eae53-fd95-11ee-bd44-088fc368-bd227686-0bcb-11ef-812e-088f...' for key 'id_user'
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.addMember (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:65:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:31:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Sun May 12 2024 18:59:41 GMT+0700 (Indochina Time)
+        message: Duplicate entry 'oa3eae53-fd95-11ee-bd44-088fc368-bd227686-0bcb-11ef-812e-088f...' for key 'id_user'
+        stack: Error: Duplicate entry 'oa3eae53-fd95-11ee-bd44-088fc368-bd227686-0bcb-11ef-812e-088f...' for key 'id_user'
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.addMember (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:65:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:31:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Sun May 12 2024 19:00:27 GMT+0700 (Indochina Time)
+        message: Duplicate entry '3c5f0e12-f673-11ee-954e-088fc368-bd227686-0bcb-11ef-812e-088f...' for key 'id_user'
+        stack: Error: Duplicate entry '3c5f0e12-f673-11ee-954e-088fc368-bd227686-0bcb-11ef-812e-088f...' for key 'id_user'
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.addMember (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:65:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:31:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Sun May 12 2024 19:01:31 GMT+0700 (Indochina Time)
+        message: Duplicate entry '3c5f0e12-f673-11ee-954e-088fc368-bd227686-0bcb-11ef-812e-088f...' for key 'id_user'
+        stack: Error: Duplicate entry '3c5f0e12-f673-11ee-954e-088fc368-bd227686-0bcb-11ef-812e-088f...' for key 'id_user'
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.addMember (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:65:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:31:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Sun May 12 2024 19:03:29 GMT+0700 (Indochina Time)
+        message: Duplicate entry '3c5f0e12-f673-11ee-954e-088fc368-bd227686-0bcb-11ef-812e-088f...' for key 'id_user'
+        stack: Error: Duplicate entry '3c5f0e12-f673-11ee-954e-088fc368-bd227686-0bcb-11ef-812e-088f...' for key 'id_user'
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.addMember (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:65:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:31:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Sun May 12 2024 19:13:55 GMT+0700 (Indochina Time)
+        message: Duplicate entry '3c5f0e12-f673-11ee-954e-088fc368-e0b9a155-1057-11ef-be87-088f...' for key 'id_user'
+        stack: Error: Duplicate entry '3c5f0e12-f673-11ee-954e-088fc368-e0b9a155-1057-11ef-be87-088f...' for key 'id_user'
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.addMember (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:65:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:31:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Sun May 12 2024 19:14:31 GMT+0700 (Indochina Time)
+        message: Duplicate entry '3c5f0e12-f673-11ee-954e-088fc368-e0b9a155-1057-11ef-be87-088f...' for key 'id_user'
+        stack: Error: Duplicate entry '3c5f0e12-f673-11ee-954e-088fc368-e0b9a155-1057-11ef-be87-088f...' for key 'id_user'
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.addMember (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:65:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:31:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Sun May 12 2024 19:14:31 GMT+0700 (Indochina Time)
+        message: Duplicate entry '5993db35-1050-11ef-be87-088fc368-e0b9a155-1057-11ef-be87-088f...' for key 'id_user'
+        stack: Error: Duplicate entry '5993db35-1050-11ef-be87-088fc368-e0b9a155-1057-11ef-be87-088f...' for key 'id_user'
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.addMember (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:65:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:31:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Sun May 12 2024 19:14:31 GMT+0700 (Indochina Time)
+        message: Duplicate entry '8a3eae53-fd95-11ee-bd44-088fc368-e0b9a155-1057-11ef-be87-088f...' for key 'id_user'
+        stack: Error: Duplicate entry '8a3eae53-fd95-11ee-bd44-088fc368-e0b9a155-1057-11ef-be87-088f...' for key 'id_user'
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.addMember (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:65:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:31:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Sun May 12 2024 19:14:31 GMT+0700 (Indochina Time)
+        message: Duplicate entry '9e5d5bdd-1050-11ef-be87-088fc368-e0b9a155-1057-11ef-be87-088f...' for key 'id_user'
+        stack: Error: Duplicate entry '9e5d5bdd-1050-11ef-be87-088fc368-e0b9a155-1057-11ef-be87-088f...' for key 'id_user'
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.addMember (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:65:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:31:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Sun May 12 2024 19:14:31 GMT+0700 (Indochina Time)
+        message: Duplicate entry 'ca3eae53-fd95-11ee-bd44-088fc368-e0b9a155-1057-11ef-be87-088f...' for key 'id_user'
+        stack: Error: Duplicate entry 'ca3eae53-fd95-11ee-bd44-088fc368-e0b9a155-1057-11ef-be87-088f...' for key 'id_user'
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.addMember (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:65:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:31:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Sun May 12 2024 19:14:31 GMT+0700 (Indochina Time)
+        message: Duplicate entry 'oa3eae53-fd95-11ee-bd44-088fc368-e0b9a155-1057-11ef-be87-088f...' for key 'id_user'
+        stack: Error: Duplicate entry 'oa3eae53-fd95-11ee-bd44-088fc368-e0b9a155-1057-11ef-be87-088f...' for key 'id_user'
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.addMember (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:65:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:31:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Sun May 12 2024 19:15:11 GMT+0700 (Indochina Time)
+        message: Duplicate entry '3c5f0e12-f673-11ee-954e-088fc368-bd227686-0bcb-11ef-812e-088f...' for key 'id_user'
+        stack: Error: Duplicate entry '3c5f0e12-f673-11ee-954e-088fc368-bd227686-0bcb-11ef-812e-088f...' for key 'id_user'
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.addMember (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:65:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:31:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Sun May 12 2024 19:16:15 GMT+0700 (Indochina Time)
+        message: Duplicate entry 'oa3eae53-fd95-11ee-bd44-088fc368-bd227686-0bcb-11ef-812e-088f...' for key 'id_user'
+        stack: Error: Duplicate entry 'oa3eae53-fd95-11ee-bd44-088fc368-bd227686-0bcb-11ef-812e-088f...' for key 'id_user'
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.addMember (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:65:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:31:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Sun May 12 2024 19:22:02 GMT+0700 (Indochina Time)
+        message: Duplicate entry '3c5f0e12-f673-11ee-954e-088fc368-bd227686-0bcb-11ef-812e-088f...' for key 'id_user'
+        stack: Error: Duplicate entry '3c5f0e12-f673-11ee-954e-088fc368-bd227686-0bcb-11ef-812e-088f...' for key 'id_user'
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.addMember (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:65:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:31:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Sun May 12 2024 19:22:02 GMT+0700 (Indochina Time)
+        message: Duplicate entry '5993db35-1050-11ef-be87-088fc368-bd227686-0bcb-11ef-812e-088f...' for key 'id_user'
+        stack: Error: Duplicate entry '5993db35-1050-11ef-be87-088fc368-bd227686-0bcb-11ef-812e-088f...' for key 'id_user'
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.addMember (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:65:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:31:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Sun May 12 2024 19:22:02 GMT+0700 (Indochina Time)
+        message: Duplicate entry '8a3eae53-fd95-11ee-bd44-088fc368-bd227686-0bcb-11ef-812e-088f...' for key 'id_user'
+        stack: Error: Duplicate entry '8a3eae53-fd95-11ee-bd44-088fc368-bd227686-0bcb-11ef-812e-088f...' for key 'id_user'
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.addMember (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:65:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:31:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Sun May 12 2024 19:22:02 GMT+0700 (Indochina Time)
+        message: Duplicate entry '9e5d5bdd-1050-11ef-be87-088fc368-bd227686-0bcb-11ef-812e-088f...' for key 'id_user'
+        stack: Error: Duplicate entry '9e5d5bdd-1050-11ef-be87-088fc368-bd227686-0bcb-11ef-812e-088f...' for key 'id_user'
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.addMember (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:65:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:31:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Sun May 12 2024 19:22:02 GMT+0700 (Indochina Time)
+        message: Duplicate entry 'ca3eae53-fd95-11ee-bd44-088fc368-bd227686-0bcb-11ef-812e-088f...' for key 'id_user'
+        stack: Error: Duplicate entry 'ca3eae53-fd95-11ee-bd44-088fc368-bd227686-0bcb-11ef-812e-088f...' for key 'id_user'
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.addMember (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:65:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:31:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Sun May 12 2024 19:22:02 GMT+0700 (Indochina Time)
+        message: Duplicate entry 'oa3eae53-fd95-11ee-bd44-088fc368-bd227686-0bcb-11ef-812e-088f...' for key 'id_user'
+        stack: Error: Duplicate entry 'oa3eae53-fd95-11ee-bd44-088fc368-bd227686-0bcb-11ef-812e-088f...' for key 'id_user'
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.addMember (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:65:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:31:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Sun May 12 2024 19:23:09 GMT+0700 (Indochina Time)
+        message: Duplicate entry '3c5f0e12-f673-11ee-954e-088fc368-bd227686-0bcb-11ef-812e-088f...' for key 'id_user'
+        stack: Error: Duplicate entry '3c5f0e12-f673-11ee-954e-088fc368-bd227686-0bcb-11ef-812e-088f...' for key 'id_user'
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.addMember (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:65:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:31:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Sun May 12 2024 19:23:09 GMT+0700 (Indochina Time)
+        message: Duplicate entry '5993db35-1050-11ef-be87-088fc368-bd227686-0bcb-11ef-812e-088f...' for key 'id_user'
+        stack: Error: Duplicate entry '5993db35-1050-11ef-be87-088fc368-bd227686-0bcb-11ef-812e-088f...' for key 'id_user'
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.addMember (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:65:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:31:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Sun May 12 2024 19:23:09 GMT+0700 (Indochina Time)
+        message: Duplicate entry '8a3eae53-fd95-11ee-bd44-088fc368-bd227686-0bcb-11ef-812e-088f...' for key 'id_user'
+        stack: Error: Duplicate entry '8a3eae53-fd95-11ee-bd44-088fc368-bd227686-0bcb-11ef-812e-088f...' for key 'id_user'
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.addMember (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:65:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:31:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Sun May 12 2024 19:23:09 GMT+0700 (Indochina Time)
+        message: Duplicate entry '9e5d5bdd-1050-11ef-be87-088fc368-bd227686-0bcb-11ef-812e-088f...' for key 'id_user'
+        stack: Error: Duplicate entry '9e5d5bdd-1050-11ef-be87-088fc368-bd227686-0bcb-11ef-812e-088f...' for key 'id_user'
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.addMember (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:65:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:31:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Sun May 12 2024 19:23:09 GMT+0700 (Indochina Time)
+        message: Duplicate entry 'ca3eae53-fd95-11ee-bd44-088fc368-bd227686-0bcb-11ef-812e-088f...' for key 'id_user'
+        stack: Error: Duplicate entry 'ca3eae53-fd95-11ee-bd44-088fc368-bd227686-0bcb-11ef-812e-088f...' for key 'id_user'
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.addMember (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:65:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:31:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Sun May 12 2024 19:23:09 GMT+0700 (Indochina Time)
+        message: Duplicate entry 'oa3eae53-fd95-11ee-bd44-088fc368-bd227686-0bcb-11ef-812e-088f...' for key 'id_user'
+        stack: Error: Duplicate entry 'oa3eae53-fd95-11ee-bd44-088fc368-bd227686-0bcb-11ef-812e-088f...' for key 'id_user'
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.addMember (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:65:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:31:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Sun May 12 2024 19:24:26 GMT+0700 (Indochina Time)
+        message: Duplicate entry '3c5f0e12-f673-11ee-954e-088fc368-bd227686-0bcb-11ef-812e-088f...' for key 'id_user'
+        stack: Error: Duplicate entry '3c5f0e12-f673-11ee-954e-088fc368-bd227686-0bcb-11ef-812e-088f...' for key 'id_user'
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.addMember (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:65:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:31:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Sun May 12 2024 19:24:26 GMT+0700 (Indochina Time)
+        message: Duplicate entry '5993db35-1050-11ef-be87-088fc368-bd227686-0bcb-11ef-812e-088f...' for key 'id_user'
+        stack: Error: Duplicate entry '5993db35-1050-11ef-be87-088fc368-bd227686-0bcb-11ef-812e-088f...' for key 'id_user'
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.addMember (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:65:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:31:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Sun May 12 2024 19:24:26 GMT+0700 (Indochina Time)
+        message: Duplicate entry '8a3eae53-fd95-11ee-bd44-088fc368-bd227686-0bcb-11ef-812e-088f...' for key 'id_user'
+        stack: Error: Duplicate entry '8a3eae53-fd95-11ee-bd44-088fc368-bd227686-0bcb-11ef-812e-088f...' for key 'id_user'
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.addMember (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:65:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:31:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Sun May 12 2024 19:24:26 GMT+0700 (Indochina Time)
+        message: Duplicate entry '9e5d5bdd-1050-11ef-be87-088fc368-bd227686-0bcb-11ef-812e-088f...' for key 'id_user'
+        stack: Error: Duplicate entry '9e5d5bdd-1050-11ef-be87-088fc368-bd227686-0bcb-11ef-812e-088f...' for key 'id_user'
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.addMember (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:65:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:31:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Sun May 12 2024 19:24:26 GMT+0700 (Indochina Time)
+        message: Duplicate entry 'ca3eae53-fd95-11ee-bd44-088fc368-bd227686-0bcb-11ef-812e-088f...' for key 'id_user'
+        stack: Error: Duplicate entry 'ca3eae53-fd95-11ee-bd44-088fc368-bd227686-0bcb-11ef-812e-088f...' for key 'id_user'
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.addMember (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:65:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:31:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Sun May 12 2024 19:24:26 GMT+0700 (Indochina Time)
+        message: Duplicate entry 'oa3eae53-fd95-11ee-bd44-088fc368-bd227686-0bcb-11ef-812e-088f...' for key 'id_user'
+        stack: Error: Duplicate entry 'oa3eae53-fd95-11ee-bd44-088fc368-bd227686-0bcb-11ef-812e-088f...' for key 'id_user'
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.addMember (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:65:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:31:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)

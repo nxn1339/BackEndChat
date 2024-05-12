@@ -38,25 +38,27 @@ async function getListMember(id_group) {
 async function createGroup(group) {
     try {
         await db.execute(
-            `INSERT INTO \`group\`(\`id\`, \`name\`, \`image\`, \`id_user\`,\`type\`) 
+            `INSERT INTO \`group\`(\`id\`, \`name\`, \`image\`, \`id_user\`, \`type\`) 
             VALUES (
                 uuid(),
                 '${group.name}',
-                '${group.image??""}',
-                '${group.id_user}'
+                '${group.image ?? ""}',
+                '${group.id_user}',
                 '${group.type}')`
-                
-        )    
+        );
+
         const result = await db.execute(
-            `SELECT MAX(id) FROM \`group\` WHERE 1`)
+            `SELECT MAX(id) FROM \`group\` WHERE 1`
+        );
         return {
             code: 200,
             data: result[0]
-        }
+        };
     } catch (error) {
-        throw (error)
+        throw error;
     }
 }
+
 
 async function addMember(member) {
     try {
