@@ -185,10 +185,10 @@ async function changePassword(id, user) {
     }
 }
 
-async function getListUser() {
+async function getListUser(keyword) {
     try {
         const data = await db.execute(
-            `SELECT \`id\`, \`name\`, \`avatar\` FROM \`user\``
+            `SELECT \`id\`, \`name\`, \`avatar\` FROM \`user\` Where name LIKE '%${keyword ?? ''}%' `
         )
 
         return {

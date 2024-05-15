@@ -1,17 +1,17 @@
 #Lấy Group
-GET http://localhost:3000/group/b5b3190c-5397-11ee-b610-089798d3
+GET http://localhost:3000/group/1/8a3eae53-fd95-11ee-bd44-088fc368
 
 #Lấy Member trong group đó
-GET http://localhost:3000/group/member/43815472-0636-11ef-9802-088fc368
+GET http://localhost:3000/group/47d0ba0d-1219-11ef-9031-088fc368
 
 # Lấy trạng thái của nhóm chát đó đã đọc tin nhắn hay chưa
-GET http://localhost:3000/group/(id user)/(id group)
+GET http://localhost:3000/group/Status/(id user)/(id group)
 
-#Đánh dấu đọc tin nhắn
+#Đánh dấu đọc tin nhắn hoặc xóa tin nhắn ở cá nhân
 PUT http://localhost:3000/group
 {
   "id_group": "",
-  "id_user":""
+  "id_user":"",
 }
 
 #Thay đổi tên ảnh hoặc chủ nhóm

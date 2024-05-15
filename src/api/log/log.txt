@@ -3811,3 +3811,584 @@ log============================================================================
     at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
     at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
     at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Mon May 13 2024 21:16:41 GMT+0700 (Indochina Time)
+        message: Duplicate entry '3c5f0e12-f673-11ee-954e-088fc368-bd227686-0bcb-11ef-812e-088f...' for key 'id_user'
+        stack: Error: Duplicate entry '3c5f0e12-f673-11ee-954e-088fc368-bd227686-0bcb-11ef-812e-088f...' for key 'id_user'
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.addMember (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:66:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:31:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Mon May 13 2024 21:16:42 GMT+0700 (Indochina Time)
+        message: Duplicate entry '5993db35-1050-11ef-be87-088fc368-bd227686-0bcb-11ef-812e-088f...' for key 'id_user'
+        stack: Error: Duplicate entry '5993db35-1050-11ef-be87-088fc368-bd227686-0bcb-11ef-812e-088f...' for key 'id_user'
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.addMember (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:66:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:31:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Mon May 13 2024 21:16:42 GMT+0700 (Indochina Time)
+        message: Duplicate entry '8a3eae53-fd95-11ee-bd44-088fc368-bd227686-0bcb-11ef-812e-088f...' for key 'id_user'
+        stack: Error: Duplicate entry '8a3eae53-fd95-11ee-bd44-088fc368-bd227686-0bcb-11ef-812e-088f...' for key 'id_user'
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.addMember (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:66:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:31:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Mon May 13 2024 21:16:42 GMT+0700 (Indochina Time)
+        message: Duplicate entry '9e5d5bdd-1050-11ef-be87-088fc368-bd227686-0bcb-11ef-812e-088f...' for key 'id_user'
+        stack: Error: Duplicate entry '9e5d5bdd-1050-11ef-be87-088fc368-bd227686-0bcb-11ef-812e-088f...' for key 'id_user'
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.addMember (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:66:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:31:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Mon May 13 2024 21:16:42 GMT+0700 (Indochina Time)
+        message: Duplicate entry 'ca3eae53-fd95-11ee-bd44-088fc368-bd227686-0bcb-11ef-812e-088f...' for key 'id_user'
+        stack: Error: Duplicate entry 'ca3eae53-fd95-11ee-bd44-088fc368-bd227686-0bcb-11ef-812e-088f...' for key 'id_user'
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.addMember (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:66:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:31:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Mon May 13 2024 21:16:42 GMT+0700 (Indochina Time)
+        message: Duplicate entry 'oa3eae53-fd95-11ee-bd44-088fc368-bd227686-0bcb-11ef-812e-088f...' for key 'id_user'
+        stack: Error: Duplicate entry 'oa3eae53-fd95-11ee-bd44-088fc368-bd227686-0bcb-11ef-812e-088f...' for key 'id_user'
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.addMember (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:66:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:31:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Mon May 13 2024 21:36:07 GMT+0700 (Indochina Time)
+        message: Duplicate entry '3c5f0e12-f673-11ee-954e-088fc368-d8b4b3ae-1134-11ef-9ff7-088f...' for key 'id_user'
+        stack: Error: Duplicate entry '3c5f0e12-f673-11ee-954e-088fc368-d8b4b3ae-1134-11ef-9ff7-088f...' for key 'id_user'
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.addMember (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:66:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:31:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Mon May 13 2024 21:36:07 GMT+0700 (Indochina Time)
+        message: Duplicate entry 'ca3eae53-fd95-11ee-bd44-088fc368-d8b4b3ae-1134-11ef-9ff7-088f...' for key 'id_user'
+        stack: Error: Duplicate entry 'ca3eae53-fd95-11ee-bd44-088fc368-d8b4b3ae-1134-11ef-9ff7-088f...' for key 'id_user'
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.addMember (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:66:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:31:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Mon May 13 2024 21:46:49 GMT+0700 (Indochina Time)
+        message: Unknown column 'g.created_at' in 'order clause'
+        stack: Error: Unknown column 'g.created_at' in 'order clause'
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.getListGroup (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:5:33)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:7:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+============================================================================
+        Mon May 13 2024 21:49:00 GMT+0700 (Indochina Time)
+        message: Unknown column 'g.create_at' in 'order clause'
+        stack: Error: Unknown column 'g.create_at' in 'order clause'
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.getListGroup (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:5:33)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:7:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+============================================================================
+        Mon May 13 2024 21:51:45 GMT+0700 (Indochina Time)
+        message: Unknown column 'g.created_at' in 'order clause'
+        stack: Error: Unknown column 'g.created_at' in 'order clause'
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.getListGroup (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:5:33)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:7:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+============================================================================
+        Mon May 13 2024 21:54:56 GMT+0700 (Indochina Time)
+        message: Duplicate entry '3c5f0e12-f673-11ee-954e-088fc368-d8b4b3ae-1134-11ef-9ff7-088f...' for key 'id_user'
+        stack: Error: Duplicate entry '3c5f0e12-f673-11ee-954e-088fc368-d8b4b3ae-1134-11ef-9ff7-088f...' for key 'id_user'
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.addMember (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:66:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:31:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Mon May 13 2024 21:58:11 GMT+0700 (Indochina Time)
+        message: Duplicate entry '3c5f0e12-f673-11ee-954e-088fc368-d8b4b3ae-1134-11ef-9ff7-088f...' for key 'id_user'
+        stack: Error: Duplicate entry '3c5f0e12-f673-11ee-954e-088fc368-d8b4b3ae-1134-11ef-9ff7-088f...' for key 'id_user'
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.addMember (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:66:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:31:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Mon May 13 2024 21:58:11 GMT+0700 (Indochina Time)
+        message: Duplicate entry '8a3eae53-fd95-11ee-bd44-088fc368-d8b4b3ae-1134-11ef-9ff7-088f...' for key 'id_user'
+        stack: Error: Duplicate entry '8a3eae53-fd95-11ee-bd44-088fc368-d8b4b3ae-1134-11ef-9ff7-088f...' for key 'id_user'
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.addMember (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:66:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:31:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Mon May 13 2024 21:58:11 GMT+0700 (Indochina Time)
+        message: Duplicate entry '9e5d5bdd-1050-11ef-be87-088fc368-d8b4b3ae-1134-11ef-9ff7-088f...' for key 'id_user'
+        stack: Error: Duplicate entry '9e5d5bdd-1050-11ef-be87-088fc368-d8b4b3ae-1134-11ef-9ff7-088f...' for key 'id_user'
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.addMember (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:66:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:31:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Mon May 13 2024 21:59:45 GMT+0700 (Indochina Time)
+        message: Duplicate entry 'oa3eae53-fd95-11ee-bd44-088fc368-d8b4b3ae-1134-11ef-9ff7-088f...' for key 'id_user'
+        stack: Error: Duplicate entry 'oa3eae53-fd95-11ee-bd44-088fc368-d8b4b3ae-1134-11ef-9ff7-088f...' for key 'id_user'
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.addMember (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:66:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:31:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Mon May 13 2024 22:14:11 GMT+0700 (Indochina Time)
+        message: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'eba6b8f8-113a-11ef-9ff7-088fc368'' at line 1
+        stack: Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'eba6b8f8-113a-11ef-9ff7-088fc368'' at line 1
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.deleteMember (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:95:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:47:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+============================================================================
+        Mon May 13 2024 22:14:18 GMT+0700 (Indochina Time)
+        message: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'eba6b8f8-113a-11ef-9ff7-088fc368'' at line 1
+        stack: Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'eba6b8f8-113a-11ef-9ff7-088fc368'' at line 1
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.deleteMember (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:95:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:47:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+============================================================================
+        Mon May 13 2024 22:15:44 GMT+0700 (Indochina Time)
+        message: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'eba6b8f8-113a-11ef-9ff7-088fc368'' at line 1
+        stack: Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'eba6b8f8-113a-11ef-9ff7-088fc368'' at line 1
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.deleteMember (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:95:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:47:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+============================================================================
+        Wed May 15 2024 00:06:12 GMT+0700 (Indochina Time)
+        message: Unknown column 'm.id' in 'having clause'
+        stack: Error: Unknown column 'm.id' in 'having clause'
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.deleteMember (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:95:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:47:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+============================================================================
+        Wed May 15 2024 00:06:18 GMT+0700 (Indochina Time)
+        message: Unknown column 'm.id' in 'having clause'
+        stack: Error: Unknown column 'm.id' in 'having clause'
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.deleteMember (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:95:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:47:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+============================================================================
+        Wed May 15 2024 00:06:53 GMT+0700 (Indochina Time)
+        message: Unknown column 'm.id' in 'having clause'
+        stack: Error: Unknown column 'm.id' in 'having clause'
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.deleteMember (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:95:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:47:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+============================================================================
+        Wed May 15 2024 00:07:02 GMT+0700 (Indochina Time)
+        message: Unknown column 'm.id' in 'having clause'
+        stack: Error: Unknown column 'm.id' in 'having clause'
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.deleteMember (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:95:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:47:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+============================================================================
+        Wed May 15 2024 00:07:45 GMT+0700 (Indochina Time)
+        message: Unknown column 'm.id' in 'having clause'
+        stack: Error: Unknown column 'm.id' in 'having clause'
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.deleteMember (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:95:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:47:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+============================================================================
+        Wed May 15 2024 00:07:59 GMT+0700 (Indochina Time)
+        message: Unknown column 'm.id' in 'having clause'
+        stack: Error: Unknown column 'm.id' in 'having clause'
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.deleteMember (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:95:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:47:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+============================================================================
+        Wed May 15 2024 00:08:35 GMT+0700 (Indochina Time)
+        message: Unknown column 'm.id' in 'having clause'
+        stack: Error: Unknown column 'm.id' in 'having clause'
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.deleteMember (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:95:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:47:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+============================================================================
+        Wed May 15 2024 00:08:52 GMT+0700 (Indochina Time)
+        message: Unknown column 'm.id' in 'having clause'
+        stack: Error: Unknown column 'm.id' in 'having clause'
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.deleteMember (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:95:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:47:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+============================================================================
+        Wed May 15 2024 00:09:03 GMT+0700 (Indochina Time)
+        message: Unknown column 'm.id' in 'having clause'
+        stack: Error: Unknown column 'm.id' in 'having clause'
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.deleteMember (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:95:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:47:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+============================================================================
+        Wed May 15 2024 00:09:17 GMT+0700 (Indochina Time)
+        message: Unknown column 'm.id' in 'having clause'
+        stack: Error: Unknown column 'm.id' in 'having clause'
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.deleteMember (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:95:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:47:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+============================================================================
+        Wed May 15 2024 00:15:50 GMT+0700 (Indochina Time)
+        message: Can't update table 'member' in stored function/trigger because it is already used by statement which invoked this stored function/trigger
+        stack: Error: Can't update table 'member' in stored function/trigger because it is already used by statement which invoked this stored function/trigger
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.deleteMember (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:95:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:47:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+============================================================================
+        Wed May 15 2024 00:17:07 GMT+0700 (Indochina Time)
+        message: Can't update table 'member' in stored function/trigger because it is already used by statement which invoked this stored function/trigger
+        stack: Error: Can't update table 'member' in stored function/trigger because it is already used by statement which invoked this stored function/trigger
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.deleteMember (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:95:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:47:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+============================================================================
+        Wed May 15 2024 00:17:11 GMT+0700 (Indochina Time)
+        message: Can't update table 'member' in stored function/trigger because it is already used by statement which invoked this stored function/trigger
+        stack: Error: Can't update table 'member' in stored function/trigger because it is already used by statement which invoked this stored function/trigger
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.deleteMember (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:95:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:47:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+============================================================================
+        Wed May 15 2024 00:17:15 GMT+0700 (Indochina Time)
+        message: Can't update table 'member' in stored function/trigger because it is already used by statement which invoked this stored function/trigger
+        stack: Error: Can't update table 'member' in stored function/trigger because it is already used by statement which invoked this stored function/trigger
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.deleteMember (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:95:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:47:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+============================================================================
+        Wed May 15 2024 00:38:14 GMT+0700 (Indochina Time)
+        message: Unknown column 'member.delete_member' in 'field list'
+        stack: Error: Unknown column 'member.delete_member' in 'field list'
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.getListMember (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:23:33)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:15:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+============================================================================
+        Wed May 15 2024 00:39:28 GMT+0700 (Indochina Time)
+        message: Unknown column 'user.id' in 'field list'
+        stack: Error: Unknown column 'user.id' in 'field list'
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.getListMember (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:23:33)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:15:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+============================================================================
+        Wed May 15 2024 00:41:03 GMT+0700 (Indochina Time)
+        message: Unknown column 'user.id' in 'field list'
+        stack: Error: Unknown column 'user.id' in 'field list'
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.getListMember (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:23:33)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:15:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+============================================================================
+        Wed May 15 2024 23:36:02 GMT+0700 (Indochina Time)
+        message: Email đã tồn tại!
+        stack: Error: Email đã tồn tại!
+    at Object.register (C:\ProjectFlutter\BackEndChat\src\api\controllers\user.js:44:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\ProjectFlutter\BackEndChat\src\api\routers\user.js:17:18
+============================================================================
+        Wed May 15 2024 23:36:08 GMT+0700 (Indochina Time)
+        message: Thông tin tài khoản hoặc mật khẩu không chính xác!
+        stack: Error: Thông tin tài khoản hoặc mật khẩu không chính xác!
+    at Object.login (C:\ProjectFlutter\BackEndChat\src\api\controllers\user.js:92:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\ProjectFlutter\BackEndChat\src\api\routers\user.js:26:18
+============================================================================
+        Wed May 15 2024 23:37:19 GMT+0700 (Indochina Time)
+        message: Thông tin tài khoản hoặc mật khẩu không chính xác!
+        stack: Error: Thông tin tài khoản hoặc mật khẩu không chính xác!
+    at Object.login (C:\ProjectFlutter\BackEndChat\src\api\controllers\user.js:92:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\ProjectFlutter\BackEndChat\src\api\routers\user.js:26:18
+============================================================================
+        Wed May 15 2024 23:43:16 GMT+0700 (Indochina Time)
+        message: Unknown column 'delete_member' in 'field list'
+        stack: Error: Unknown column 'delete_member' in 'field list'
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.updateReadMessage (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:117:22)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:57:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Wed May 15 2024 23:43:22 GMT+0700 (Indochina Time)
+        message: Unknown column 'delete_member' in 'field list'
+        stack: Error: Unknown column 'delete_member' in 'field list'
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.updateReadMessage (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:117:22)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:57:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Wed May 15 2024 23:43:51 GMT+0700 (Indochina Time)
+        message: Unknown column 'delete_member' in 'field list'
+        stack: Error: Unknown column 'delete_member' in 'field list'
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.updateReadMessage (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:117:22)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:57:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Wed May 15 2024 23:45:10 GMT+0700 (Indochina Time)
+        message: Unknown column 'delete_member' in 'field list'
+        stack: Error: Unknown column 'delete_member' in 'field list'
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.updateReadMessage (C:\ProjectFlutter\BackEndChat\src\api\controllers\group.js:117:22)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\group.js:57:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)

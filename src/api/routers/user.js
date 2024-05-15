@@ -47,7 +47,7 @@ router.put('/change_password/:id', checkLogin, checkMyAccount, async (req, res, 
 
 router.get('/', async (req, res, next) => {
     try {
-        res.json(await controller.getListUser())
+        res.json(await controller.getListUser(req.query.keyword))
     } catch (error) {
         next(error)
     }

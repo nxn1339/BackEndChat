@@ -1,5 +1,5 @@
 ### User: Detail
-GET http://localhost:3000/user/b5b3190c-5397-11ee-b610-089798d3
+# GET http://localhost:3000/user/b5b3190c-5397-11ee-b610-089798d3
 ## Lấy tất cả user
 GET http://localhost:3000/user
 ## Lấy user ko có trong nhóm đó (truyền id_group vào)
@@ -22,7 +22,7 @@ POST http://localhost:3000/user/login
 Content-Type: application/json
 
 {
-  "username": "abca",
+  "username": "ngat",
   "password": "1234"
 }
 
