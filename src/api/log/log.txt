@@ -5036,3 +5036,17 @@ log============================================================================
     at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
     at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
     at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Sat May 18 2024 20:41:02 GMT+0700 (Indochina Time)
+        message: Unknown column 'user.name_user' in 'field list'
+        stack: Error: Unknown column 'user.name_user' in 'field list'
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.getReportGroup (C:\ProjectFlutter\BackEndChat\src\api\controllers\work.js:73:31)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\work.js:40:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)

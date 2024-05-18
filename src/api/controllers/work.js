@@ -71,17 +71,29 @@ async function deleteWorkGroup(id_work) {
 async function getReportGroup(id_work) {
     try {
         const data = await db.execute(
-            `SELECT \`id\`,\`name\`,\`percent\`,\`work_time\`,\`id_work\`,\`update_at\`,\`name_user\`, \`id_user\` FROM \`report\` WHERE id_work = '${id_work}'`
-        )
+            `SELECT 
+                report.\`id\`, 
+                report.\`name\`, 
+                report.\`percent\`, 
+                report.\`work_time\`, 
+                report.\`id_work\`, 
+                report.\`update_at\`, 
+                user.\`name\` as name_user, 
+                report.\`id_user\` 
+             FROM \`report\` 
+             INNER JOIN \`user\` ON report.\`id_user\` = user.\`id\` 
+             WHERE report.\`id_work\` = '${id_work}'`
+        );
 
         return {
             code: 200,
             data: data
-        }
+        };
     } catch (error) {
-        throw error
+        throw error;
     }
 }
+
 
 async function updateReportGroup(report) {
     try {
@@ -101,14 +113,13 @@ async function updateReportGroup(report) {
 async function addReportGroup(report) {
     try {
         const data = await db.execute(
-            `INSERT INTO \`report\` (\`id\`, \`name\`, \`percent\`, \`work_time\`, \`id_work\`, \`name_user\`, \`id_user\`) 
+            `INSERT INTO \`report\` (\`id\`, \`name\`, \`percent\`, \`work_time\`, \`id_work\`, \`id_user\`) 
             VALUES (
                 uuid(),
                 '${report.name}',
                 '${report.percent}',
                 '${report.work_time}',
                 '${report.id_work}',
-                '${report.name_user}',
                 '${report.id_user}'
             );`
         );
