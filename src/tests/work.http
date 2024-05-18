@@ -1,0 +1,52 @@
+#Lấy công việc của nhóm đó
+ GET http://localhost:3000/work/affe79a8-14e0-11ef-84ee-088fc368
+
+#Cập nhật công việc
+PUT http://localhost:3000/work
+
+{
+    "name": "",
+    "id":""
+}
+
+#Thêm công việc
+
+POST http://localhost:3000/work
+
+{
+    "name": "",
+    "id_user":"",
+    "id_group"
+}
+
+#Xóa công việc
+DELETE http://localhost:3000/work/affe79a8-14e0-11ef-84ee-088fc368
+
+#Lấy báo cáo nhóm đó
+GET http://localhost:3000/work/Report/8bd549ec-14f7-11ef-84ee-088fc368
+
+#Cập nhật report
+
+PUT http://localhost:3000/work/Report
+{
+    "name": "",
+    "percent": 2,
+    "work_time":8.5,
+    "id":
+
+}
+
+POST http://localhost:3000/work/Report
+{
+    "name": "",
+    "percent": 2,
+    "work_time":8.5,
+    "id_work":"",
+    "name_user":"",
+    "id_user":""
+
+}
+
+
+#Xóa report
+DELETE http://localhost:3000/work/Report/[value-1]

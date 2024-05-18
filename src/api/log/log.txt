@@ -4392,3 +4392,647 @@ log============================================================================
     at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
     at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
     at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Sat May 18 2024 17:32:13 GMT+0700 (Indochina Time)
+        message: Cannot read properties of undefined (reading 'length')
+        stack: Error: Cannot read properties of undefined (reading 'length')
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.getReportGroup (C:\ProjectFlutter\BackEndChat\src\api\controllers\work.js:73:31)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\work.js:40:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+============================================================================
+        Sat May 18 2024 17:32:57 GMT+0700 (Indochina Time)
+        message: Cannot read properties of undefined (reading 'length')
+        stack: Error: Cannot read properties of undefined (reading 'length')
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.getReportGroup (C:\ProjectFlutter\BackEndChat\src\api\controllers\work.js:73:31)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\work.js:40:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+============================================================================
+        Sat May 18 2024 17:33:40 GMT+0700 (Indochina Time)
+        message: Cannot read properties of undefined (reading 'length')
+        stack: Error: Cannot read properties of undefined (reading 'length')
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.getReportGroup (C:\ProjectFlutter\BackEndChat\src\api\controllers\work.js:73:31)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\work.js:40:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+============================================================================
+        Sat May 18 2024 17:34:06 GMT+0700 (Indochina Time)
+        message: Cannot read properties of undefined (reading 'length')
+        stack: Error: Cannot read properties of undefined (reading 'length')
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.getReportGroup (C:\ProjectFlutter\BackEndChat\src\api\controllers\work.js:73:31)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\work.js:40:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+============================================================================
+        Sat May 18 2024 17:34:55 GMT+0700 (Indochina Time)
+        message: Cannot read properties of undefined (reading 'length')
+        stack: Error: Cannot read properties of undefined (reading 'length')
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.getReportGroup (C:\ProjectFlutter\BackEndChat\src\api\controllers\work.js:73:31)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\work.js:40:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+============================================================================
+        Sat May 18 2024 17:36:55 GMT+0700 (Indochina Time)
+        message: Cannot read properties of undefined (reading 'length')
+        stack: Error: Cannot read properties of undefined (reading 'length')
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.getReportGroup (C:\ProjectFlutter\BackEndChat\src\api\controllers\work.js:73:31)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\work.js:40:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+============================================================================
+        Sat May 18 2024 17:38:00 GMT+0700 (Indochina Time)
+        message: Cannot read properties of undefined (reading 'length')
+        stack: Error: Cannot read properties of undefined (reading 'length')
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.getReportGroup (C:\ProjectFlutter\BackEndChat\src\api\controllers\work.js:73:31)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\work.js:40:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+============================================================================
+        Sat May 18 2024 17:38:10 GMT+0700 (Indochina Time)
+        message: Cannot read properties of undefined (reading 'length')
+        stack: Error: Cannot read properties of undefined (reading 'length')
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.getReportGroup (C:\ProjectFlutter\BackEndChat\src\api\controllers\work.js:73:31)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\work.js:40:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+============================================================================
+        Sat May 18 2024 17:38:44 GMT+0700 (Indochina Time)
+        message: Cannot read properties of undefined (reading 'length')
+        stack: Error: Cannot read properties of undefined (reading 'length')
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.getReportGroup (C:\ProjectFlutter\BackEndChat\src\api\controllers\work.js:73:31)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\work.js:40:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+============================================================================
+        Sat May 18 2024 17:41:09 GMT+0700 (Indochina Time)
+        message: Cannot read properties of undefined (reading 'length')
+        stack: Error: Cannot read properties of undefined (reading 'length')
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.getReportGroup (C:\ProjectFlutter\BackEndChat\src\api\controllers\work.js:73:31)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\work.js:40:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+============================================================================
+        Sat May 18 2024 17:42:20 GMT+0700 (Indochina Time)
+        message: Cannot read properties of undefined (reading 'length')
+        stack: Error: Cannot read properties of undefined (reading 'length')
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.getReportGroup (C:\ProjectFlutter\BackEndChat\src\api\controllers\work.js:73:31)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\work.js:40:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+============================================================================
+        Sat May 18 2024 17:43:54 GMT+0700 (Indochina Time)
+        message: Cannot read properties of undefined (reading 'length')
+        stack: Error: Cannot read properties of undefined (reading 'length')
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.getReportGroup (C:\ProjectFlutter\BackEndChat\src\api\controllers\work.js:73:31)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\work.js:40:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+============================================================================
+        Sat May 18 2024 17:45:31 GMT+0700 (Indochina Time)
+        message: Cannot read properties of undefined (reading 'length')
+        stack: Error: Cannot read properties of undefined (reading 'length')
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.getReportGroup (C:\ProjectFlutter\BackEndChat\src\api\controllers\work.js:73:31)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\work.js:40:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+============================================================================
+        Sat May 18 2024 17:47:32 GMT+0700 (Indochina Time)
+        message: Cannot read properties of undefined (reading 'length')
+        stack: Error: Cannot read properties of undefined (reading 'length')
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.getReportGroup (C:\ProjectFlutter\BackEndChat\src\api\controllers\work.js:73:31)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\work.js:40:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+============================================================================
+        Sat May 18 2024 17:49:00 GMT+0700 (Indochina Time)
+        message: Cannot read properties of undefined (reading 'length')
+        stack: Error: Cannot read properties of undefined (reading 'length')
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.getReportGroup (C:\ProjectFlutter\BackEndChat\src\api\controllers\work.js:73:31)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\work.js:40:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+============================================================================
+        Sat May 18 2024 17:50:01 GMT+0700 (Indochina Time)
+        message: Cannot read properties of undefined (reading 'length')
+        stack: Error: Cannot read properties of undefined (reading 'length')
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.getReportGroup (C:\ProjectFlutter\BackEndChat\src\api\controllers\work.js:73:31)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\work.js:40:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Sat May 18 2024 17:50:15 GMT+0700 (Indochina Time)
+        message: Cannot read properties of undefined (reading 'length')
+        stack: Error: Cannot read properties of undefined (reading 'length')
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.getReportGroup (C:\ProjectFlutter\BackEndChat\src\api\controllers\work.js:73:31)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\work.js:40:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+============================================================================
+        Sat May 18 2024 17:53:56 GMT+0700 (Indochina Time)
+        message: jwt expired
+        stack: TokenExpiredError: jwt expired
+    at C:\ProjectFlutter\BackEndChat\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (C:\ProjectFlutter\BackEndChat\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\ProjectFlutter\BackEndChat\node_modules\jsonwebtoken\verify.js:101:10)
+    at C:\ProjectFlutter\BackEndChat\src\api\helpers\token.js:24:13
+    at new Promise (<anonymous>)
+    at verifyToken (C:\ProjectFlutter\BackEndChat\src\api\helpers\token.js:23:12)
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:15:29)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+============================================================================
+        Sat May 18 2024 17:54:07 GMT+0700 (Indochina Time)
+        message: jwt expired
+        stack: TokenExpiredError: jwt expired
+    at C:\ProjectFlutter\BackEndChat\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (C:\ProjectFlutter\BackEndChat\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\ProjectFlutter\BackEndChat\node_modules\jsonwebtoken\verify.js:101:10)
+    at C:\ProjectFlutter\BackEndChat\src\api\helpers\token.js:24:13
+    at new Promise (<anonymous>)
+    at verifyToken (C:\ProjectFlutter\BackEndChat\src\api\helpers\token.js:23:12)
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:15:29)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+============================================================================
+        Sat May 18 2024 18:04:52 GMT+0700 (Indochina Time)
+        message: Table 'chat_v1.name_user' doesn't exist
+        stack: Error: Table 'chat_v1.name_user' doesn't exist
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.getReportGroup (C:\ProjectFlutter\BackEndChat\src\api\controllers\work.js:73:31)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\work.js:40:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+============================================================================
+        Sat May 18 2024 18:05:24 GMT+0700 (Indochina Time)
+        message: Table 'chat_v1.name_user' doesn't exist
+        stack: Error: Table 'chat_v1.name_user' doesn't exist
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.getReportGroup (C:\ProjectFlutter\BackEndChat\src\api\controllers\work.js:73:31)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\work.js:40:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+============================================================================
+        Sat May 18 2024 18:05:49 GMT+0700 (Indochina Time)
+        message: Table 'chat_v1.name_user' doesn't exist
+        stack: Error: Table 'chat_v1.name_user' doesn't exist
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.getReportGroup (C:\ProjectFlutter\BackEndChat\src\api\controllers\work.js:73:31)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\work.js:40:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+============================================================================
+        Sat May 18 2024 18:05:50 GMT+0700 (Indochina Time)
+        message: Table 'chat_v1.name_user' doesn't exist
+        stack: Error: Table 'chat_v1.name_user' doesn't exist
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.getReportGroup (C:\ProjectFlutter\BackEndChat\src\api\controllers\work.js:73:31)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\work.js:40:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+============================================================================
+        Sat May 18 2024 18:06:19 GMT+0700 (Indochina Time)
+        message: Table 'chat_v1.name_user' doesn't exist
+        stack: Error: Table 'chat_v1.name_user' doesn't exist
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.getReportGroup (C:\ProjectFlutter\BackEndChat\src\api\controllers\work.js:73:31)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\work.js:40:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+============================================================================
+        Sat May 18 2024 18:06:19 GMT+0700 (Indochina Time)
+        message: Table 'chat_v1.name_user' doesn't exist
+        stack: Error: Table 'chat_v1.name_user' doesn't exist
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.getReportGroup (C:\ProjectFlutter\BackEndChat\src\api\controllers\work.js:73:31)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\work.js:40:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+============================================================================
+        Sat May 18 2024 18:06:20 GMT+0700 (Indochina Time)
+        message: Table 'chat_v1.name_user' doesn't exist
+        stack: Error: Table 'chat_v1.name_user' doesn't exist
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.getReportGroup (C:\ProjectFlutter\BackEndChat\src\api\controllers\work.js:73:31)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\work.js:40:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+============================================================================
+        Sat May 18 2024 18:06:20 GMT+0700 (Indochina Time)
+        message: Table 'chat_v1.name_user' doesn't exist
+        stack: Error: Table 'chat_v1.name_user' doesn't exist
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.getReportGroup (C:\ProjectFlutter\BackEndChat\src\api\controllers\work.js:73:31)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\work.js:40:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+============================================================================
+        Sat May 18 2024 18:06:20 GMT+0700 (Indochina Time)
+        message: Table 'chat_v1.name_user' doesn't exist
+        stack: Error: Table 'chat_v1.name_user' doesn't exist
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.getReportGroup (C:\ProjectFlutter\BackEndChat\src\api\controllers\work.js:73:31)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\work.js:40:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+============================================================================
+        Sat May 18 2024 18:06:20 GMT+0700 (Indochina Time)
+        message: Table 'chat_v1.name_user' doesn't exist
+        stack: Error: Table 'chat_v1.name_user' doesn't exist
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.getReportGroup (C:\ProjectFlutter\BackEndChat\src\api\controllers\work.js:73:31)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\work.js:40:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+============================================================================
+        Sat May 18 2024 18:06:37 GMT+0700 (Indochina Time)
+        message: Table 'chat_v1.id_user' doesn't exist
+        stack: Error: Table 'chat_v1.id_user' doesn't exist
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.getReportGroup (C:\ProjectFlutter\BackEndChat\src\api\controllers\work.js:73:31)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\work.js:40:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+============================================================================
+        Sat May 18 2024 18:06:38 GMT+0700 (Indochina Time)
+        message: Table 'chat_v1.id_user' doesn't exist
+        stack: Error: Table 'chat_v1.id_user' doesn't exist
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.getReportGroup (C:\ProjectFlutter\BackEndChat\src\api\controllers\work.js:73:31)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\work.js:40:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+============================================================================
+        Sat May 18 2024 19:24:10 GMT+0700 (Indochina Time)
+        message: Cannot read properties of undefined (reading 'name')
+        stack: TypeError: Cannot read properties of undefined (reading 'name')
+    at Object.updateReportGroup (C:\ProjectFlutter\BackEndChat\src\api\controllers\work.js:89:55)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\work.js:48:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:175:3)
+============================================================================
+        Sat May 18 2024 19:24:54 GMT+0700 (Indochina Time)
+        message: Cannot read properties of undefined (reading 'name')
+        stack: TypeError: Cannot read properties of undefined (reading 'name')
+    at Object.updateReportGroup (C:\ProjectFlutter\BackEndChat\src\api\controllers\work.js:89:55)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\work.js:48:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:175:3)
+============================================================================
+        Sat May 18 2024 19:24:57 GMT+0700 (Indochina Time)
+        message: Cannot read properties of undefined (reading 'name')
+        stack: TypeError: Cannot read properties of undefined (reading 'name')
+    at Object.updateReportGroup (C:\ProjectFlutter\BackEndChat\src\api\controllers\work.js:89:55)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\work.js:48:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:175:3)
+============================================================================
+        Sat May 18 2024 19:26:07 GMT+0700 (Indochina Time)
+        message: Cannot read properties of undefined (reading 'name')
+        stack: TypeError: Cannot read properties of undefined (reading 'name')
+    at Object.updateReportGroup (C:\ProjectFlutter\BackEndChat\src\api\controllers\work.js:89:55)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\work.js:48:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:175:3)
+============================================================================
+        Sat May 18 2024 19:26:12 GMT+0700 (Indochina Time)
+        message: Cannot read properties of undefined (reading 'name')
+        stack: TypeError: Cannot read properties of undefined (reading 'name')
+    at Object.updateReportGroup (C:\ProjectFlutter\BackEndChat\src\api\controllers\work.js:89:55)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\work.js:48:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:175:3)
+============================================================================
+        Sat May 18 2024 19:26:17 GMT+0700 (Indochina Time)
+        message: Cannot read properties of undefined (reading 'name')
+        stack: TypeError: Cannot read properties of undefined (reading 'name')
+    at Object.updateReportGroup (C:\ProjectFlutter\BackEndChat\src\api\controllers\work.js:89:55)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\work.js:48:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:175:3)
+============================================================================
+        Sat May 18 2024 19:26:52 GMT+0700 (Indochina Time)
+        message: Cannot read properties of undefined (reading 'name')
+        stack: TypeError: Cannot read properties of undefined (reading 'name')
+    at Object.updateReportGroup (C:\ProjectFlutter\BackEndChat\src\api\controllers\work.js:89:55)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\work.js:48:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:175:3)
+============================================================================
+        Sat May 18 2024 19:27:02 GMT+0700 (Indochina Time)
+        message: Cannot read properties of undefined (reading 'work_time')
+        stack: TypeError: Cannot read properties of undefined (reading 'work_time')
+    at Object.updateReportGroup (C:\ProjectFlutter\BackEndChat\src\api\controllers\work.js:89:93)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\work.js:48:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:175:3)
+============================================================================
+        Sat May 18 2024 19:27:13 GMT+0700 (Indochina Time)
+        message: Cannot read properties of undefined (reading 'id')
+        stack: TypeError: Cannot read properties of undefined (reading 'id')
+    at Object.updateReportGroup (C:\ProjectFlutter\BackEndChat\src\api\controllers\work.js:89:109)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\work.js:48:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:175:3)
+============================================================================
+        Sat May 18 2024 19:28:06 GMT+0700 (Indochina Time)
+        message: Cannot read properties of undefined (reading 'id')
+        stack: TypeError: Cannot read properties of undefined (reading 'id')
+    at Object.updateReportGroup (C:\ProjectFlutter\BackEndChat\src\api\controllers\work.js:89:109)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\work.js:48:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:175:3)
+============================================================================
+        Sat May 18 2024 19:39:38 GMT+0700 (Indochina Time)
+        message: Cannot read properties of undefined (reading 'name')
+        stack: TypeError: Cannot read properties of undefined (reading 'name')
+    at Object.updateReportGroup (C:\ProjectFlutter\BackEndChat\src\api\controllers\work.js:89:55)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\work.js:64:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sat May 18 2024 19:48:27 GMT+0700 (Indochina Time)
+        message: data is not defined
+        stack: ReferenceError: data is not defined
+    at Object.deleteWorkGroup (C:\ProjectFlutter\BackEndChat\src\api\controllers\work.js:62:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\ProjectFlutter\BackEndChat\src\api\routers\work.js:31:18
+============================================================================
+        Sat May 18 2024 19:48:40 GMT+0700 (Indochina Time)
+        message: data is not defined
+        stack: ReferenceError: data is not defined
+    at Object.deleteWorkGroup (C:\ProjectFlutter\BackEndChat\src\api\controllers\work.js:62:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\ProjectFlutter\BackEndChat\src\api\routers\work.js:31:18
+============================================================================
+        Sat May 18 2024 20:21:36 GMT+0700 (Indochina Time)
+        message: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 8
+        stack: Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 8
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.addReportGroup (C:\ProjectFlutter\BackEndChat\src\api\controllers\work.js:103:31)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\work.js:56:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Sat May 18 2024 20:21:41 GMT+0700 (Indochina Time)
+        message: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 8
+        stack: Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 8
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.addReportGroup (C:\ProjectFlutter\BackEndChat\src\api\controllers\work.js:103:31)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\work.js:56:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+============================================================================
+        Sat May 18 2024 20:24:27 GMT+0700 (Indochina Time)
+        message: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 8
+        stack: Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 8
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.addReportGroup (C:\ProjectFlutter\BackEndChat\src\api\controllers\work.js:103:31)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\work.js:56:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)

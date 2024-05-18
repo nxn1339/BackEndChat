@@ -6,6 +6,7 @@ const userRouter = require('./api/routers/user')
 const imageRouter = require('./api/routers/image')
 const groupRouter = require('./api/routers/group')
 const chatRouter = require('./api/routers/chat')
+const workRouter = require('./api/routers/work')
 
 const db = require('./api/helpers/database')
 const server = require('http').Server(app)
@@ -28,6 +29,7 @@ app.use('/user', userRouter)
 app.use('/image', imageRouter)
 app.use('/group',groupRouter)
 app.use('/chat',chatRouter)
+app.use('/work',workRouter)
 
 
 // Error
