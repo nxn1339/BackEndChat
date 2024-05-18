@@ -1,11 +1,14 @@
-#Lấy Group
-GET http://localhost:3000/group/1/8a3eae53-fd95-11ee-bd44-088fc368
+# #Lấy Group
+# GET http://localhost:3000/group/1/8a3eae53-fd95-11ee-bd44-088fc368
 
-#Lấy Member trong group đó
-GET http://localhost:3000/group/47d0ba0d-1219-11ef-9031-088fc368
+# #Lấy Member trong group đó
+# GET http://localhost:3000/group/47d0ba0d-1219-11ef-9031-088fc368
 
-# Lấy trạng thái của nhóm chát đó đã đọc tin nhắn hay chưa
-GET http://localhost:3000/group/Status/(id user)/(id group)
+# # Lấy trạng thái của nhóm chát đó đã đọc tin nhắn hay chưa
+# GET http://localhost:3000/group/Status/(id user)/(id group)
+
+#check số lương để tạo group single khi tìm kiếm
+GET http://localhost:3000/group/Check/b5b3190c-5397-11ee-b610-089798d3/9e5d5bdd-1050-11ef-be87-088fc368
 
 #Đánh dấu đọc tin nhắn hoặc xóa tin nhắn ở cá nhân
 PUT http://localhost:3000/group

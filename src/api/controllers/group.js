@@ -40,13 +40,14 @@ async function getListMember(id_group) {
 async function createGroup(group) {
     try {      
             await db.execute(
-                `INSERT INTO \`group\`(\`id\`, \`name\`, \`image\`, \`id_user\`, \`type\`) 
+                `INSERT INTO \`group\`(\`id\`, \`name\`, \`image\`, \`id_user\`, \`type\`, \`id_user_single\`) 
                 VALUES (
                     uuid(),
                     '${group.name}',
                     '${group.image ?? ""}',
                     '${group.id_user}',
-                    '${group.type}')`
+                    '${group.type}',
+                    '${group.id_user_single}')`
             );
     
             const result = await db.execute(
@@ -162,6 +163,22 @@ async function updateGroup(group) {
     }
 }
 
+async function checkSingleGroup(id_user1,id_user2) {
+    try {
+        const result = await db.execute(
+            `SELECT COUNT(*) FROM \`group\`
+            WHERE (\`id_user\` = '${id_user1}' AND \`id_user_single\` = '${id_user2}')
+               OR (\`id_user\` = '${id_user2}' AND \`id_user_single\` = '${id_user1}');`)
+        return {
+            code: 200,
+            data: result
+        }
+    } catch (error) {
+        throw (error)
+    }
+}
+
+
 
 module.exports = {
     getListGroup,
@@ -172,5 +189,6 @@ module.exports = {
     deleteMember,
     updateReadMessage,
     getStatusMessage,
-    updateGroup
+    updateGroup,
+    checkSingleGroup
 }

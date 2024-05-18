@@ -5050,3 +5050,17 @@ log============================================================================
     at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
     at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
     at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+============================================================================
+        Sat May 18 2024 21:51:27 GMT+0700 (Indochina Time)
+        message: jwt expired
+        stack: TokenExpiredError: jwt expired
+    at C:\ProjectFlutter\BackEndChat\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (C:\ProjectFlutter\BackEndChat\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\ProjectFlutter\BackEndChat\node_modules\jsonwebtoken\verify.js:101:10)
+    at C:\ProjectFlutter\BackEndChat\src\api\helpers\token.js:24:13
+    at new Promise (<anonymous>)
+    at verifyToken (C:\ProjectFlutter\BackEndChat\src\api\helpers\token.js:23:12)
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:15:29)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)

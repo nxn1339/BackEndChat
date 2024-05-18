@@ -73,4 +73,11 @@ router.put('/', async (req, res, next) => {
             next(error)
         }})
 
+        router.get('/Check/:id_user1/:id_user2', async (req, res, next) => {
+            try {
+                res.json(await controller.checkSingleGroup(req.params.id_user1,req.params.id_user2))
+            } catch (error) {
+                next(error)
+            }})
+
 module.exports = router
