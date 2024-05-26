@@ -67,6 +67,14 @@ io.on('connection', (socket) => {
         io.emit('chat message', {content,time,id_user,avatar,image,name,id_group}); 
     
     });
+
+      // Lắng nghe sự kiện 'chat message'
+      socket.on('messageSingle', (data) => {
+        const { id, content,image, time,id_group,id_user,name,avatar} = data;
+        console.log('Tin nhắn từ người dùng', id_user + ': ' + content);
+        io.emit('messageSingle', {content,time,id_user,avatar,image,name,id_group}); 
+    
+    });
      // Lắng nghe sự kiện 'readMessage'
      socket.on('readMessage', (data) => {
         const {id_group,id_user,read_message} = data;     
