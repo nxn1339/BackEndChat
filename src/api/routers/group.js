@@ -1,8 +1,9 @@
 const express = require('express')
 const router = express.Router()
 const controller = require('../controllers/group')
+const { checkLogin } = require('../middlewares/checkLogin')
 
-router.get('/:type/:id_user', async (req, res, next) => {
+router.get('/:type/:id_user',checkLogin ,async (req, res, next) => {
     try {
         res.json(await controller.getListGroup(req.params.type, req.params.id_user,req.query.keyword));
     } catch (error) {
@@ -18,7 +19,7 @@ router.get('/:id_group' ,async (req, res, next) => {
     }
 })
 
-router.post('/', async (req, res, next) => {
+router.post('/',checkLogin ,async (req, res, next) => {
     try {
         res.json(await controller.createGroup(req.body))
     } catch (error) {
@@ -34,7 +35,7 @@ router.post('/member', async (req, res, next) => {
     }
 })
 
-router.delete('/:id', async (req, res, next) => {
+router.delete('/:id',checkLogin ,async (req, res, next) => {
     try {
         res.json(await controller.deleteGroup(req.params.id))
     } catch (error) {
@@ -42,7 +43,7 @@ router.delete('/:id', async (req, res, next) => {
     }
 })
 
-router.delete('/member/:id_user/:id_group', async (req, res, next) => {
+router.delete('/member/:id_user/:id_group',checkLogin ,async (req, res, next) => {
     try {
         res.json(await controller.deleteMember(req.params.id_user,req.params.id_group))
     } catch (error) {
@@ -66,7 +67,7 @@ router.put('/', async (req, res, next) => {
          next(error)
      }})
 
-     router.put('/Change', async (req, res, next) => {
+     router.put('/Change',checkLogin ,async (req, res, next) => {
         try {
             res.json(await controller.updateGroup(req.body))
         } catch (error) {

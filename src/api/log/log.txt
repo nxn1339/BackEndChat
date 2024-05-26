@@ -5064,3 +5064,1615 @@ log============================================================================
     at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
     at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
     at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+============================================================================
+        Sun May 26 2024 14:15:34 GMT+0700 (Indochina Time)
+        message: jwt expired
+        stack: TokenExpiredError: jwt expired
+    at C:\ProjectFlutter\BackEndChat\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (C:\ProjectFlutter\BackEndChat\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\ProjectFlutter\BackEndChat\node_modules\jsonwebtoken\verify.js:101:10)
+    at C:\ProjectFlutter\BackEndChat\src\api\helpers\token.js:24:13
+    at new Promise (<anonymous>)
+    at verifyToken (C:\ProjectFlutter\BackEndChat\src\api\helpers\token.js:23:12)
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:15:29)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+============================================================================
+        Sun May 26 2024 14:17:03 GMT+0700 (Indochina Time)
+        message: Bạn chưa đăng nhập!
+        stack: Error: Bạn chưa đăng nhập!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:17:22 GMT+0700 (Indochina Time)
+        message: Bạn chưa đăng nhập!
+        stack: Error: Bạn chưa đăng nhập!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:17:22 GMT+0700 (Indochina Time)
+        message: Bạn chưa đăng nhập!
+        stack: Error: Bạn chưa đăng nhập!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:24:23 GMT+0700 (Indochina Time)
+        message: Đăng nhập đã hết hạn!
+        stack: Error: Đăng nhập đã hết hạn!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:24:23 GMT+0700 (Indochina Time)
+        message: Đăng nhập đã hết hạn!
+        stack: Error: Đăng nhập đã hết hạn!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:25:35 GMT+0700 (Indochina Time)
+        message: Đăng nhập đã hết hạn!
+        stack: Error: Đăng nhập đã hết hạn!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:25:35 GMT+0700 (Indochina Time)
+        message: Đăng nhập đã hết hạn!
+        stack: Error: Đăng nhập đã hết hạn!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:30:51 GMT+0700 (Indochina Time)
+        message: Đăng nhập đã hết hạn!
+        stack: Error: Đăng nhập đã hết hạn!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:30:51 GMT+0700 (Indochina Time)
+        message: Đăng nhập đã hết hạn!
+        stack: Error: Đăng nhập đã hết hạn!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:31:41 GMT+0700 (Indochina Time)
+        message: Đăng nhập đã hết hạn!
+        stack: Error: Đăng nhập đã hết hạn!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:31:42 GMT+0700 (Indochina Time)
+        message: Đăng nhập đã hết hạn!
+        stack: Error: Đăng nhập đã hết hạn!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:31:53 GMT+0700 (Indochina Time)
+        message: Đăng nhập đã hết hạn!
+        stack: Error: Đăng nhập đã hết hạn!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:31:53 GMT+0700 (Indochina Time)
+        message: Đăng nhập đã hết hạn!
+        stack: Error: Đăng nhập đã hết hạn!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:34:50 GMT+0700 (Indochina Time)
+        message: Đăng nhập đã hết hạn!
+        stack: Error: Đăng nhập đã hết hạn!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:34:50 GMT+0700 (Indochina Time)
+        message: Đăng nhập đã hết hạn!
+        stack: Error: Đăng nhập đã hết hạn!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:40:22 GMT+0700 (Indochina Time)
+        message: Đăng nhập đã hết hạn!
+        stack: Error: Đăng nhập đã hết hạn!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:40:22 GMT+0700 (Indochina Time)
+        message: Đăng nhập đã hết hạn!
+        stack: Error: Đăng nhập đã hết hạn!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:40:28 GMT+0700 (Indochina Time)
+        message: Đăng nhập đã hết hạn!
+        stack: Error: Đăng nhập đã hết hạn!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:40:28 GMT+0700 (Indochina Time)
+        message: Đăng nhập đã hết hạn!
+        stack: Error: Đăng nhập đã hết hạn!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:40:41 GMT+0700 (Indochina Time)
+        message: Đăng nhập đã hết hạn!
+        stack: Error: Đăng nhập đã hết hạn!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:40:41 GMT+0700 (Indochina Time)
+        message: Đăng nhập đã hết hạn!
+        stack: Error: Đăng nhập đã hết hạn!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:40:49 GMT+0700 (Indochina Time)
+        message: Đăng nhập đã hết hạn!
+        stack: Error: Đăng nhập đã hết hạn!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:40:50 GMT+0700 (Indochina Time)
+        message: Đăng nhập đã hết hạn!
+        stack: Error: Đăng nhập đã hết hạn!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:40:58 GMT+0700 (Indochina Time)
+        message: Đăng nhập đã hết hạn!
+        stack: Error: Đăng nhập đã hết hạn!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:40:59 GMT+0700 (Indochina Time)
+        message: Đăng nhập đã hết hạn!
+        stack: Error: Đăng nhập đã hết hạn!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:42:05 GMT+0700 (Indochina Time)
+        message: Đăng nhập đã hết hạn!
+        stack: Error: Đăng nhập đã hết hạn!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:42:14 GMT+0700 (Indochina Time)
+        message: Đăng nhập đã hết hạn!
+        stack: Error: Đăng nhập đã hết hạn!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:42:14 GMT+0700 (Indochina Time)
+        message: Đăng nhập đã hết hạn!
+        stack: Error: Đăng nhập đã hết hạn!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:42:14 GMT+0700 (Indochina Time)
+        message: Đăng nhập đã hết hạn!
+        stack: Error: Đăng nhập đã hết hạn!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:42:14 GMT+0700 (Indochina Time)
+        message: Đăng nhập đã hết hạn!
+        stack: Error: Đăng nhập đã hết hạn!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:42:14 GMT+0700 (Indochina Time)
+        message: Đăng nhập đã hết hạn!
+        stack: Error: Đăng nhập đã hết hạn!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:42:14 GMT+0700 (Indochina Time)
+        message: Đăng nhập đã hết hạn!
+        stack: Error: Đăng nhập đã hết hạn!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:42:14 GMT+0700 (Indochina Time)
+        message: Đăng nhập đã hết hạn!
+        stack: Error: Đăng nhập đã hết hạn!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:42:14 GMT+0700 (Indochina Time)
+        message: Đăng nhập đã hết hạn!
+        stack: Error: Đăng nhập đã hết hạn!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:42:14 GMT+0700 (Indochina Time)
+        message: Đăng nhập đã hết hạn!
+        stack: Error: Đăng nhập đã hết hạn!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:42:14 GMT+0700 (Indochina Time)
+        message: Đăng nhập đã hết hạn!
+        stack: Error: Đăng nhập đã hết hạn!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:42:14 GMT+0700 (Indochina Time)
+        message: Đăng nhập đã hết hạn!
+        stack: Error: Đăng nhập đã hết hạn!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:42:14 GMT+0700 (Indochina Time)
+        message: Đăng nhập đã hết hạn!
+        stack: Error: Đăng nhập đã hết hạn!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:42:14 GMT+0700 (Indochina Time)
+        message: Đăng nhập đã hết hạn!
+        stack: Error: Đăng nhập đã hết hạn!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:42:14 GMT+0700 (Indochina Time)
+        message: Đăng nhập đã hết hạn!
+        stack: Error: Đăng nhập đã hết hạn!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:42:14 GMT+0700 (Indochina Time)
+        message: Đăng nhập đã hết hạn!
+        stack: Error: Đăng nhập đã hết hạn!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:42:14 GMT+0700 (Indochina Time)
+        message: Đăng nhập đã hết hạn!
+        stack: Error: Đăng nhập đã hết hạn!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:42:14 GMT+0700 (Indochina Time)
+        message: Đăng nhập đã hết hạn!
+        stack: Error: Đăng nhập đã hết hạn!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:42:14 GMT+0700 (Indochina Time)
+        message: Đăng nhập đã hết hạn!
+        stack: Error: Đăng nhập đã hết hạn!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:42:14 GMT+0700 (Indochina Time)
+        message: Đăng nhập đã hết hạn!
+        stack: Error: Đăng nhập đã hết hạn!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:42:14 GMT+0700 (Indochina Time)
+        message: Đăng nhập đã hết hạn!
+        stack: Error: Đăng nhập đã hết hạn!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:42:14 GMT+0700 (Indochina Time)
+        message: Đăng nhập đã hết hạn!
+        stack: Error: Đăng nhập đã hết hạn!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:42:14 GMT+0700 (Indochina Time)
+        message: Đăng nhập đã hết hạn!
+        stack: Error: Đăng nhập đã hết hạn!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:42:14 GMT+0700 (Indochina Time)
+        message: Đăng nhập đã hết hạn!
+        stack: Error: Đăng nhập đã hết hạn!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:42:14 GMT+0700 (Indochina Time)
+        message: Đăng nhập đã hết hạn!
+        stack: Error: Đăng nhập đã hết hạn!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:42:14 GMT+0700 (Indochina Time)
+        message: Đăng nhập đã hết hạn!
+        stack: Error: Đăng nhập đã hết hạn!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:42:14 GMT+0700 (Indochina Time)
+        message: Đăng nhập đã hết hạn!
+        stack: Error: Đăng nhập đã hết hạn!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:42:14 GMT+0700 (Indochina Time)
+        message: Đăng nhập đã hết hạn!
+        stack: Error: Đăng nhập đã hết hạn!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:42:14 GMT+0700 (Indochina Time)
+        message: Đăng nhập đã hết hạn!
+        stack: Error: Đăng nhập đã hết hạn!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:42:14 GMT+0700 (Indochina Time)
+        message: Đăng nhập đã hết hạn!
+        stack: Error: Đăng nhập đã hết hạn!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:42:14 GMT+0700 (Indochina Time)
+        message: Đăng nhập đã hết hạn!
+        stack: Error: Đăng nhập đã hết hạn!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:42:14 GMT+0700 (Indochina Time)
+        message: Đăng nhập đã hết hạn!
+        stack: Error: Đăng nhập đã hết hạn!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:42:14 GMT+0700 (Indochina Time)
+        message: Đăng nhập đã hết hạn!
+        stack: Error: Đăng nhập đã hết hạn!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:42:14 GMT+0700 (Indochina Time)
+        message: Đăng nhập đã hết hạn!
+        stack: Error: Đăng nhập đã hết hạn!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:42:14 GMT+0700 (Indochina Time)
+        message: Đăng nhập đã hết hạn!
+        stack: Error: Đăng nhập đã hết hạn!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:42:14 GMT+0700 (Indochina Time)
+        message: Đăng nhập đã hết hạn!
+        stack: Error: Đăng nhập đã hết hạn!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:42:14 GMT+0700 (Indochina Time)
+        message: Đăng nhập đã hết hạn!
+        stack: Error: Đăng nhập đã hết hạn!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:42:14 GMT+0700 (Indochina Time)
+        message: Đăng nhập đã hết hạn!
+        stack: Error: Đăng nhập đã hết hạn!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:42:14 GMT+0700 (Indochina Time)
+        message: Đăng nhập đã hết hạn!
+        stack: Error: Đăng nhập đã hết hạn!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:42:14 GMT+0700 (Indochina Time)
+        message: Đăng nhập đã hết hạn!
+        stack: Error: Đăng nhập đã hết hạn!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:42:14 GMT+0700 (Indochina Time)
+        message: Đăng nhập đã hết hạn!
+        stack: Error: Đăng nhập đã hết hạn!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:42:14 GMT+0700 (Indochina Time)
+        message: Đăng nhập đã hết hạn!
+        stack: Error: Đăng nhập đã hết hạn!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:42:14 GMT+0700 (Indochina Time)
+        message: Đăng nhập đã hết hạn!
+        stack: Error: Đăng nhập đã hết hạn!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:42:14 GMT+0700 (Indochina Time)
+        message: Đăng nhập đã hết hạn!
+        stack: Error: Đăng nhập đã hết hạn!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:42:14 GMT+0700 (Indochina Time)
+        message: Đăng nhập đã hết hạn!
+        stack: Error: Đăng nhập đã hết hạn!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:42:14 GMT+0700 (Indochina Time)
+        message: Đăng nhập đã hết hạn!
+        stack: Error: Đăng nhập đã hết hạn!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:42:14 GMT+0700 (Indochina Time)
+        message: Đăng nhập đã hết hạn!
+        stack: Error: Đăng nhập đã hết hạn!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:42:14 GMT+0700 (Indochina Time)
+        message: Đăng nhập đã hết hạn!
+        stack: Error: Đăng nhập đã hết hạn!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:42:14 GMT+0700 (Indochina Time)
+        message: Đăng nhập đã hết hạn!
+        stack: Error: Đăng nhập đã hết hạn!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:42:14 GMT+0700 (Indochina Time)
+        message: Đăng nhập đã hết hạn!
+        stack: Error: Đăng nhập đã hết hạn!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:42:14 GMT+0700 (Indochina Time)
+        message: Đăng nhập đã hết hạn!
+        stack: Error: Đăng nhập đã hết hạn!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:42:14 GMT+0700 (Indochina Time)
+        message: Đăng nhập đã hết hạn!
+        stack: Error: Đăng nhập đã hết hạn!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:42:14 GMT+0700 (Indochina Time)
+        message: Đăng nhập đã hết hạn!
+        stack: Error: Đăng nhập đã hết hạn!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:42:14 GMT+0700 (Indochina Time)
+        message: Đăng nhập đã hết hạn!
+        stack: Error: Đăng nhập đã hết hạn!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:42:14 GMT+0700 (Indochina Time)
+        message: Đăng nhập đã hết hạn!
+        stack: Error: Đăng nhập đã hết hạn!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:42:14 GMT+0700 (Indochina Time)
+        message: Đăng nhập đã hết hạn!
+        stack: Error: Đăng nhập đã hết hạn!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:42:14 GMT+0700 (Indochina Time)
+        message: Đăng nhập đã hết hạn!
+        stack: Error: Đăng nhập đã hết hạn!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:42:14 GMT+0700 (Indochina Time)
+        message: Đăng nhập đã hết hạn!
+        stack: Error: Đăng nhập đã hết hạn!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:42:14 GMT+0700 (Indochina Time)
+        message: Đăng nhập đã hết hạn!
+        stack: Error: Đăng nhập đã hết hạn!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:42:51 GMT+0700 (Indochina Time)
+        message: Đăng nhập đã hết hạn!
+        stack: Error: Đăng nhập đã hết hạn!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:42:52 GMT+0700 (Indochina Time)
+        message: Đăng nhập đã hết hạn!
+        stack: Error: Đăng nhập đã hết hạn!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:43:41 GMT+0700 (Indochina Time)
+        message: Đăng nhập đã hết hạn!
+        stack: Error: Đăng nhập đã hết hạn!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:43:42 GMT+0700 (Indochina Time)
+        message: Đăng nhập đã hết hạn!
+        stack: Error: Đăng nhập đã hết hạn!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:43:55 GMT+0700 (Indochina Time)
+        message: Đăng nhập đã hết hạn!
+        stack: Error: Đăng nhập đã hết hạn!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:43:55 GMT+0700 (Indochina Time)
+        message: Đăng nhập đã hết hạn!
+        stack: Error: Đăng nhập đã hết hạn!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 14:46:40 GMT+0700 (Indochina Time)
+        message: jwt expired
+        stack: TokenExpiredError: jwt expired
+    at C:\ProjectFlutter\BackEndChat\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (C:\ProjectFlutter\BackEndChat\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\ProjectFlutter\BackEndChat\node_modules\jsonwebtoken\verify.js:101:10)
+    at C:\ProjectFlutter\BackEndChat\src\api\helpers\token.js:24:13
+    at new Promise (<anonymous>)
+    at verifyToken (C:\ProjectFlutter\BackEndChat\src\api\helpers\token.js:23:12)
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:15:29)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+============================================================================
+        Sun May 26 2024 14:46:41 GMT+0700 (Indochina Time)
+        message: jwt expired
+        stack: TokenExpiredError: jwt expired
+    at C:\ProjectFlutter\BackEndChat\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (C:\ProjectFlutter\BackEndChat\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\ProjectFlutter\BackEndChat\node_modules\jsonwebtoken\verify.js:101:10)
+    at C:\ProjectFlutter\BackEndChat\src\api\helpers\token.js:24:13
+    at new Promise (<anonymous>)
+    at verifyToken (C:\ProjectFlutter\BackEndChat\src\api\helpers\token.js:23:12)
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:15:29)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+============================================================================
+        Sun May 26 2024 15:12:56 GMT+0700 (Indochina Time)
+        message: helper is not defined
+        stack: ReferenceError: helper is not defined
+    at Object.getListChat (C:\ProjectFlutter\BackEndChat\src\api\controllers\chat.js:5:24)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\chat.js:9:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 15:13:45 GMT+0700 (Indochina Time)
+        message: helper is not defined
+        stack: ReferenceError: helper is not defined
+    at Object.getListChat (C:\ProjectFlutter\BackEndChat\src\api\controllers\chat.js:5:24)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\chat.js:9:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 15:13:46 GMT+0700 (Indochina Time)
+        message: helper is not defined
+        stack: ReferenceError: helper is not defined
+    at Object.getListChat (C:\ProjectFlutter\BackEndChat\src\api\controllers\chat.js:5:24)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\chat.js:9:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 15:15:12 GMT+0700 (Indochina Time)
+        message: helper is not defined
+        stack: ReferenceError: helper is not defined
+    at Object.getListChat (C:\ProjectFlutter\BackEndChat\src\api\controllers\chat.js:5:24)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\chat.js:9:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 15:16:00 GMT+0700 (Indochina Time)
+        message: helper is not defined
+        stack: ReferenceError: helper is not defined
+    at Object.getListChat (C:\ProjectFlutter\BackEndChat\src\api\controllers\chat.js:6:24)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\chat.js:9:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 15:17:31 GMT+0700 (Indochina Time)
+        message: helper is not defined
+        stack: ReferenceError: helper is not defined
+    at Object.getListChat (C:\ProjectFlutter\BackEndChat\src\api\controllers\chat.js:6:24)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\chat.js:9:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 15:18:02 GMT+0700 (Indochina Time)
+        message: helper is not defined
+        stack: ReferenceError: helper is not defined
+    at Object.getListChat (C:\ProjectFlutter\BackEndChat\src\api\controllers\chat.js:6:24)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\chat.js:9:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 15:19:59 GMT+0700 (Indochina Time)
+        message: helper is not defined
+        stack: ReferenceError: helper is not defined
+    at Object.getListChat (C:\ProjectFlutter\BackEndChat\src\api\controllers\chat.js:6:24)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\chat.js:9:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 15:24:32 GMT+0700 (Indochina Time)
+        message: helper is not defined
+        stack: ReferenceError: helper is not defined
+    at Object.getListChat (C:\ProjectFlutter\BackEndChat\src\api\controllers\chat.js:6:24)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\chat.js:9:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 15:25:04 GMT+0700 (Indochina Time)
+        message: helper is not defined
+        stack: ReferenceError: helper is not defined
+    at Object.getListChat (C:\ProjectFlutter\BackEndChat\src\api\controllers\chat.js:6:24)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\chat.js:8:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 15:26:12 GMT+0700 (Indochina Time)
+        message: helper is not defined
+        stack: ReferenceError: helper is not defined
+    at Object.getListChat (C:\ProjectFlutter\BackEndChat\src\api\controllers\chat.js:6:24)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\chat.js:8:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 15:26:29 GMT+0700 (Indochina Time)
+        message: helper is not defined
+        stack: ReferenceError: helper is not defined
+    at Object.getListChat (C:\ProjectFlutter\BackEndChat\src\api\controllers\chat.js:6:24)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\chat.js:8:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 15:27:22 GMT+0700 (Indochina Time)
+        message: helper is not defined
+        stack: ReferenceError: helper is not defined
+    at Object.getListChat (C:\ProjectFlutter\BackEndChat\src\api\controllers\chat.js:6:24)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\chat.js:8:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 15:28:02 GMT+0700 (Indochina Time)
+        message: helper is not defined
+        stack: ReferenceError: helper is not defined
+    at Object.getListChat (C:\ProjectFlutter\BackEndChat\src\api\controllers\chat.js:6:24)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\chat.js:8:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 15:28:14 GMT+0700 (Indochina Time)
+        message: Bind parameters must be array if namedPlaceholders parameter is not enabled
+        stack: Error: Bind parameters must be array if namedPlaceholders parameter is not enabled
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.getListChat (C:\ProjectFlutter\BackEndChat\src\api\controllers\chat.js:7:33)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\chat.js:8:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+============================================================================
+        Sun May 26 2024 15:28:39 GMT+0700 (Indochina Time)
+        message: Cannot read properties of undefined (reading 'total')
+        stack: TypeError: Cannot read properties of undefined (reading 'total')
+    at Object.getListChat (C:\ProjectFlutter\BackEndChat\src\api\controllers\chat.js:19:37)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\ProjectFlutter\BackEndChat\src\api\routers\chat.js:8:18
+============================================================================
+        Sun May 26 2024 15:33:49 GMT+0700 (Indochina Time)
+        message: helper is not defined
+        stack: ReferenceError: helper is not defined
+    at Object.getListChat (C:\ProjectFlutter\BackEndChat\src\api\controllers\chat.js:6:24)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\chat.js:8:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 15:34:19 GMT+0700 (Indochina Time)
+        message: helper is not defined
+        stack: ReferenceError: helper is not defined
+    at Object.getListChat (C:\ProjectFlutter\BackEndChat\src\api\controllers\chat.js:5:24)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\chat.js:8:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:421:3)
+============================================================================
+        Sun May 26 2024 15:34:58 GMT+0700 (Indochina Time)
+        message: Bind parameters must be array if namedPlaceholders parameter is not enabled
+        stack: Error: Bind parameters must be array if namedPlaceholders parameter is not enabled
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.getListChat (C:\ProjectFlutter\BackEndChat\src\api\controllers\chat.js:8:33)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\chat.js:8:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+============================================================================
+        Sun May 26 2024 15:35:27 GMT+0700 (Indochina Time)
+        message: Bind parameters must be array if namedPlaceholders parameter is not enabled
+        stack: Error: Bind parameters must be array if namedPlaceholders parameter is not enabled
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.getListChat (C:\ProjectFlutter\BackEndChat\src\api\controllers\chat.js:8:33)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\chat.js:8:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+============================================================================
+        Sun May 26 2024 15:37:51 GMT+0700 (Indochina Time)
+        message: Unknown column 'c.id_group' in 'where clause'
+        stack: Error: Unknown column 'c.id_group' in 'where clause'
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.getListChat (C:\ProjectFlutter\BackEndChat\src\api\controllers\chat.js:18:36)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\ProjectFlutter\BackEndChat\src\api\routers\chat.js:8:18
+============================================================================
+        Sun May 26 2024 15:39:00 GMT+0700 (Indochina Time)
+        message: Bind parameters must be array if namedPlaceholders parameter is not enabled
+        stack: Error: Bind parameters must be array if namedPlaceholders parameter is not enabled
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.getListChat (C:\ProjectFlutter\BackEndChat\src\api\controllers\chat.js:8:33)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\chat.js:8:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+============================================================================
+        Sun May 26 2024 16:06:12 GMT+0700 (Indochina Time)
+        message: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-12, 12' at line 7
+        stack: Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-12, 12' at line 7
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.getListChat (C:\ProjectFlutter\BackEndChat\src\api\controllers\chat.js:8:33)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\chat.js:8:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)

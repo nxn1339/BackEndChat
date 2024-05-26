@@ -1,17 +1,28 @@
 const db = require('../helpers/database')
+const helper = require('../helpers/helper')
+const { listPerPage } = require('../../config/config')
 
-async function getListChat(id_group) {
+async function getListChat(id_group, page) {
     try {
+        const offset = helper.getOffset(page, listPerPage)
         const result = await db.execute(
             `SELECT 
             c.\`id\`, c.\`content\`, c.\`image\`, \`time\`,c.\`id_group\`, c.\`id_user\`, u.name, u.avatar
             FROM \`chat\` AS c
             INNER JOIN \`user\` AS u ON u.\`id\` = c.\`id_user\`
             WHERE c.id_group = '${id_group}'
-            ORDER BY \`time\` ASC;`)
+            ORDER BY \`time\` DESC
+            LIMIT ${offset}, ${listPerPage}`
+            )
+            const totalResult = await db.execute(`SELECT count(*) AS total FROM chat AS c INNER JOIN \`user\` AS u ON u.\`id\` = c.\`id_user\` WHERE c.id_group = '${id_group}'`)
+            const total = totalResult[0].total;
         return {
             code: 200,
-            data: result
+            data: result,
+            meta: {
+                page: page == null ? 1 : parseInt(page),
+                total: total
+            }
         }
     } catch (error) {
         throw (error)

@@ -1,23 +1,23 @@
-# #Lấy Group
-# GET http://localhost:3000/group/1/8a3eae53-fd95-11ee-bd44-088fc368
+###Lấy Group
+GET http://localhost:3000/group/1/8a3eae53-fd95-11ee-bd44-088fc368
 
-# #Lấy Member trong group đó
-# GET http://localhost:3000/group/47d0ba0d-1219-11ef-9031-088fc368
+###Lấy Member trong group đó
+GET http://localhost:3000/group/47d0ba0d-1219-11ef-9031-088fc368
 
-# # Lấy trạng thái của nhóm chát đó đã đọc tin nhắn hay chưa
-# GET http://localhost:3000/group/Status/(id user)/(id group)
+### Lấy trạng thái của nhóm chát đó đã đọc tin nhắn hay chưa
+GET http://localhost:3000/group/Status/(id user)/(id group)
 
-#check số lương để tạo group single khi tìm kiếm
+###check số lương để tạo group single khi tìm kiếm
 GET http://localhost:3000/group/Check/b5b3190c-5397-11ee-b610-089798d3/9e5d5bdd-1050-11ef-be87-088fc368
 
-#Đánh dấu đọc tin nhắn hoặc xóa tin nhắn ở cá nhân
+###Đánh dấu đọc tin nhắn hoặc xóa tin nhắn ở cá nhân
 PUT http://localhost:3000/group
 {
   "id_group": "",
   "id_user":"",
 }
 
-#Thay đổi tên ảnh hoặc chủ nhóm
+###Thay đổi tên ảnh hoặc chủ nhóm
 PUT http://localhost:3000/group/Change
 {
   "id":"",
@@ -27,7 +27,7 @@ PUT http://localhost:3000/group/Change
   "type": ""
 }
 
-#Tạo group
+###Tạo group
 POST http://localhost:3000/group
 Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjNjNWYwZTEyLWY2NzMtMTFlZS05NTRlLTA4OGZjMzY4IiwiaWF0IjoxNzEyNjc5MzQ2LCJleHAiOjE3MTI3NjU3NDZ9.d_NHZhmny2PUPzaPYjv1kG_mFuyMIMPJvn3mj60-7zw
 Content-Type: application/json
@@ -38,6 +38,7 @@ Content-Type: application/json
   "id_user": "b5b3190c-5397-11ee-b610-089798d3",
  }
 
+###
  POST http://localhost:3000/group/member
  Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjNjNWYwZTEyLWY2NzMtMTFlZS05NTRlLTA4OGZjMzY4IiwiaWF0IjoxNzEyNjc5MzQ2LCJleHAiOjE3MTI3NjU3NDZ9.d_NHZhmny2PUPzaPYjv1kG_mFuyMIMPJvn3mj60-7zw
 Content-Type: application/json
@@ -47,7 +48,7 @@ Content-Type: application/json
   "id_group": "ae0b710f-f747-11ee-9291-088fc368"
  }
 
-#Xóa nhóm
+###Xóa nhóm
  DELETE http://localhost:3000/group/7099008b-04be-11ef-9d0d-088fc368
-#Thoát nhóm (xóa member ra khỏi nhóm đó) truyền vào là id user
+###Thoát nhóm (xóa member ra khỏi nhóm đó) truyền vào là id user
   DELETE http://localhost:3000/group/member/7099008b-04be-11ef-9d0d-088fc368

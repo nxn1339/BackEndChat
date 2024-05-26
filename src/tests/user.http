@@ -42,7 +42,7 @@ Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImI1YjMxOTBjL
 ### User: changePassword
 PUT http://localhost:3000/user/change_password/b5b3190c-5397-11ee-b610-089798d3
 Content-Type: application/json
-Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImI1YjMxOTBjLTUzOTctMTFlZS1iNjEwLTA4OTc5OGQzIiwiaWF0IjoxNjk3Njg5NzQzLCJleHAiOjE2OTc3NzYxNDN9.8vMBwKihv_7BB57q-_RAdT6zLrkhofwZxdbNjkIuAWk
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImI1YjMxOTBjLTUzOTctMTFlZS1iNjEwLTA4OTc5OGQzIiwiaWF0IjoxNzE2NzEwMzAwLCJleHAiOjE3MTY3OTY3MDB9.4Xx1WOx8MhCT_ODm_2u2_PCsIzx61lqboZIffybX4iI
 
 {
   "oldPassword": "1234",

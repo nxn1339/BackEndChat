@@ -2,7 +2,6 @@ const express = require('express')
 const router = express.Router()
 const controller = require('../controllers/user')
 const { checkLogin } = require('../middlewares/checkLogin')
-const { checkMyAccount, checkDeleteUser, checkAdmin } = require('../middlewares/checkPermission')
 
 router.get('/:id', async (req, res, next) => {
     try {
@@ -29,7 +28,7 @@ router.post('/login', async (req, res, next) => {
     }
 })
 
-router.put('/:id', checkLogin, checkMyAccount, async (req, res, next) => {
+router.put('/:id', checkLogin, async (req, res, next) => {
     try {
         res.json(await controller.update(req.params.id, req.body))
     } catch (error) {
@@ -37,7 +36,7 @@ router.put('/:id', checkLogin, checkMyAccount, async (req, res, next) => {
     }
 })
 
-router.put('/change_password/:id', checkLogin, checkMyAccount, async (req, res, next) => {
+router.put('/change_password/:id', checkLogin, async (req, res, next) => {
     try {
         res.json(await controller.changePassword(req.params.id, req.body))
     } catch (error) {

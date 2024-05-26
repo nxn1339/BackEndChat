@@ -2,7 +2,7 @@ const { verifyToken } = require('../helpers/token')
 
 const checkLogin = async (req, res, next) => {
     if (!req.headers.authorization) {
-        var err = new Error('Bạn chưa đăng nhập!')
+        var err = new Error('Đăng nhập đã hết hạn!')
         err.statusCode = 401
         next(err)
         return
