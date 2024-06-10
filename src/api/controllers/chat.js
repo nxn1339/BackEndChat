@@ -57,9 +57,24 @@ async function addChat(chat) {
                 '${chat.image}',
                 '${chat.id_group}',
                 '${chat.id_user}')`)
+        var idChat =  await db.execute(`SELECT * FROM \`chat\` WHERE \`time\` = (SELECT MAX(\`time\`) FROM \`chat\`)`)
+
         return {
             code: 200,
-            data: "Thêm thành công đoạn chat"
+            data: idChat,
+        }
+    } catch (error) {
+        throw (error)
+    }
+}
+
+async function deleteChat(id) {
+    try {
+        await db.execute(`UPDATE \`chat\` SET \`content\`='Đã xóa tin này',\`image\`='' WHERE id = "${id}"`)
+
+        return {
+            code: 200,
+            data: "Đã xóa",
         }
     } catch (error) {
         throw (error)
@@ -69,5 +84,6 @@ async function addChat(chat) {
 module.exports = {
     getListChat,
     addChat,
-    getLastChat
+    getLastChat,
+    deleteChat
 }

@@ -27,4 +27,12 @@ router.get('/last/:id_group', async (req, res, next) => {
     }
 })
 
+router.delete('/delete/:id', async (req, res, next) => {
+    try {
+        res.json(await controller.deleteChat(req.params.id))
+    } catch (error) {
+        next(error)
+    }
+})
+
 module.exports = router

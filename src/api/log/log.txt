@@ -6676,3 +6676,386 @@ log============================================================================
     at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
     at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
     at param (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:365:14)
+============================================================================
+        Tue Jun 04 2024 21:57:21 GMT+0700 (Indochina Time)
+        message: jwt expired
+        stack: TokenExpiredError: jwt expired
+    at C:\ProjectFlutter\BackEndChat\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (C:\ProjectFlutter\BackEndChat\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\ProjectFlutter\BackEndChat\node_modules\jsonwebtoken\verify.js:101:10)
+    at C:\ProjectFlutter\BackEndChat\src\api\helpers\token.js:24:13
+    at new Promise (<anonymous>)
+    at verifyToken (C:\ProjectFlutter\BackEndChat\src\api\helpers\token.js:23:12)
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:15:29)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+============================================================================
+        Tue Jun 04 2024 21:57:21 GMT+0700 (Indochina Time)
+        message: jwt expired
+        stack: TokenExpiredError: jwt expired
+    at C:\ProjectFlutter\BackEndChat\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (C:\ProjectFlutter\BackEndChat\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\ProjectFlutter\BackEndChat\node_modules\jsonwebtoken\verify.js:101:10)
+    at C:\ProjectFlutter\BackEndChat\src\api\helpers\token.js:24:13
+    at new Promise (<anonymous>)
+    at verifyToken (C:\ProjectFlutter\BackEndChat\src\api\helpers\token.js:23:12)
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:15:29)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+============================================================================
+        Tue Jun 04 2024 22:17:56 GMT+0700 (Indochina Time)
+        message: jwt expired
+        stack: TokenExpiredError: jwt expired
+    at C:\ProjectFlutter\BackEndChat\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (C:\ProjectFlutter\BackEndChat\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\ProjectFlutter\BackEndChat\node_modules\jsonwebtoken\verify.js:101:10)
+    at C:\ProjectFlutter\BackEndChat\src\api\helpers\token.js:24:13
+    at new Promise (<anonymous>)
+    at verifyToken (C:\ProjectFlutter\BackEndChat\src\api\helpers\token.js:23:12)
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:15:29)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+============================================================================
+        Tue Jun 04 2024 22:17:57 GMT+0700 (Indochina Time)
+        message: jwt expired
+        stack: TokenExpiredError: jwt expired
+    at C:\ProjectFlutter\BackEndChat\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (C:\ProjectFlutter\BackEndChat\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\ProjectFlutter\BackEndChat\node_modules\jsonwebtoken\verify.js:101:10)
+    at C:\ProjectFlutter\BackEndChat\src\api\helpers\token.js:24:13
+    at new Promise (<anonymous>)
+    at verifyToken (C:\ProjectFlutter\BackEndChat\src\api\helpers\token.js:23:12)
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:15:29)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+============================================================================
+        Mon Jun 10 2024 20:29:17 GMT+0700 (Indochina Time)
+        message: jwt expired
+        stack: TokenExpiredError: jwt expired
+    at C:\ProjectFlutter\BackEndChat\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (C:\ProjectFlutter\BackEndChat\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\ProjectFlutter\BackEndChat\node_modules\jsonwebtoken\verify.js:101:10)
+    at C:\ProjectFlutter\BackEndChat\src\api\helpers\token.js:24:13
+    at new Promise (<anonymous>)
+    at verifyToken (C:\ProjectFlutter\BackEndChat\src\api\helpers\token.js:23:12)
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:15:29)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+============================================================================
+        Mon Jun 10 2024 20:29:17 GMT+0700 (Indochina Time)
+        message: jwt expired
+        stack: TokenExpiredError: jwt expired
+    at C:\ProjectFlutter\BackEndChat\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (C:\ProjectFlutter\BackEndChat\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\ProjectFlutter\BackEndChat\node_modules\jsonwebtoken\verify.js:101:10)
+    at C:\ProjectFlutter\BackEndChat\src\api\helpers\token.js:24:13
+    at new Promise (<anonymous>)
+    at verifyToken (C:\ProjectFlutter\BackEndChat\src\api\helpers\token.js:23:12)
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:15:29)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+============================================================================
+        Mon Jun 10 2024 21:09:09 GMT+0700 (Indochina Time)
+        message: uuid is not defined
+        stack: ReferenceError: uuid is not defined
+    at Object.addChat (C:\ProjectFlutter\BackEndChat\src\api\controllers\chat.js:62:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\ProjectFlutter\BackEndChat\src\api\routers\chat.js:16:18
+============================================================================
+        Mon Jun 10 2024 21:09:15 GMT+0700 (Indochina Time)
+        message: uuid is not defined
+        stack: ReferenceError: uuid is not defined
+    at Object.addChat (C:\ProjectFlutter\BackEndChat\src\api\controllers\chat.js:62:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\ProjectFlutter\BackEndChat\src\api\routers\chat.js:16:18
+============================================================================
+        Mon Jun 10 2024 21:11:37 GMT+0700 (Indochina Time)
+        message: uuid is not defined
+        stack: ReferenceError: uuid is not defined
+    at Object.addChat (C:\ProjectFlutter\BackEndChat\src\api\controllers\chat.js:63:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\ProjectFlutter\BackEndChat\src\api\routers\chat.js:16:18
+============================================================================
+        Mon Jun 10 2024 21:14:07 GMT+0700 (Indochina Time)
+        message: uuid is not defined
+        stack: ReferenceError: uuid is not defined
+    at Object.addChat (C:\ProjectFlutter\BackEndChat\src\api\controllers\chat.js:63:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\ProjectFlutter\BackEndChat\src\api\routers\chat.js:16:18
+============================================================================
+        Mon Jun 10 2024 21:41:11 GMT+0700 (Indochina Time)
+        message: jwt expired
+        stack: TokenExpiredError: jwt expired
+    at C:\ProjectFlutter\BackEndChat\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (C:\ProjectFlutter\BackEndChat\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\ProjectFlutter\BackEndChat\node_modules\jsonwebtoken\verify.js:101:10)
+    at C:\ProjectFlutter\BackEndChat\src\api\helpers\token.js:24:13
+    at new Promise (<anonymous>)
+    at verifyToken (C:\ProjectFlutter\BackEndChat\src\api\helpers\token.js:23:12)
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:15:29)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+============================================================================
+        Mon Jun 10 2024 21:42:04 GMT+0700 (Indochina Time)
+        message: Cannot add or update a child row: a foreign key constraint fails (temp file operation failed)
+        stack: Error: Cannot add or update a child row: a foreign key constraint fails (temp file operation failed)
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.addChat (C:\ProjectFlutter\BackEndChat\src\api\controllers\chat.js:52:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\chat.js:16:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:16:9)
+============================================================================
+        Mon Jun 10 2024 21:43:19 GMT+0700 (Indochina Time)
+        message: Cannot add or update a child row: a foreign key constraint fails (temp file operation failed)
+        stack: Error: Cannot add or update a child row: a foreign key constraint fails (temp file operation failed)
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.addChat (C:\ProjectFlutter\BackEndChat\src\api\controllers\chat.js:52:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\chat.js:16:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:16:9)
+============================================================================
+        Mon Jun 10 2024 21:43:31 GMT+0700 (Indochina Time)
+        message: Cannot add or update a child row: a foreign key constraint fails (temp file operation failed)
+        stack: Error: Cannot add or update a child row: a foreign key constraint fails (temp file operation failed)
+    at PromisePool.execute (C:\ProjectFlutter\BackEndChat\node_modules\mysql2\promise.js:374:22)
+    at Object.execute (C:\ProjectFlutter\BackEndChat\src\api\helpers\database.js:7:34)
+    at Object.addChat (C:\ProjectFlutter\BackEndChat\src\api\controllers\chat.js:52:18)
+    at C:\ProjectFlutter\BackEndChat\src\api\routers\chat.js:16:35
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:16:9)
+============================================================================
+        Mon Jun 10 2024 21:55:57 GMT+0700 (Indochina Time)
+        message: Đăng nhập đã hết hạn!
+        stack: Error: Đăng nhập đã hết hạn!
+    at checkLogin (C:\ProjectFlutter\BackEndChat\src\api\middlewares\checkLogin.js:5:19)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\layer.js:95:5)
+    at C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\ProjectFlutter\BackEndChat\node_modules\express\lib\router\index.js:47:12)
+============================================================================
+        Mon Jun 10 2024 22:30:35 GMT+0700 (Indochina Time)
+        message: Unexpected token 'n', "#" is not valid JSON
+        stack: SyntaxError: Unexpected token 'n', "#" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (C:\ProjectFlutter\BackEndChat\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (C:\ProjectFlutter\BackEndChat\node_modules\body-parser\lib\types\json.js:83:15)
+    at C:\ProjectFlutter\BackEndChat\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:231:16)
+    at done (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:515:28)
+    at endReadableNT (node:internal/streams/readable:1409:12)
+============================================================================
+        Mon Jun 10 2024 22:30:41 GMT+0700 (Indochina Time)
+        message: Unexpected token 'n', "#" is not valid JSON
+        stack: SyntaxError: Unexpected token 'n', "#" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (C:\ProjectFlutter\BackEndChat\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (C:\ProjectFlutter\BackEndChat\node_modules\body-parser\lib\types\json.js:83:15)
+    at C:\ProjectFlutter\BackEndChat\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:231:16)
+    at done (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:515:28)
+    at endReadableNT (node:internal/streams/readable:1409:12)
+============================================================================
+        Mon Jun 10 2024 22:31:05 GMT+0700 (Indochina Time)
+        message: Unexpected token 'n', "#" is not valid JSON
+        stack: SyntaxError: Unexpected token 'n', "#" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (C:\ProjectFlutter\BackEndChat\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (C:\ProjectFlutter\BackEndChat\node_modules\body-parser\lib\types\json.js:83:15)
+    at C:\ProjectFlutter\BackEndChat\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:231:16)
+    at done (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:515:28)
+    at endReadableNT (node:internal/streams/readable:1409:12)
+============================================================================
+        Mon Jun 10 2024 22:37:00 GMT+0700 (Indochina Time)
+        message: Unexpected token 'n', "#" is not valid JSON
+        stack: SyntaxError: Unexpected token 'n', "#" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (C:\ProjectFlutter\BackEndChat\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (C:\ProjectFlutter\BackEndChat\node_modules\body-parser\lib\types\json.js:83:15)
+    at C:\ProjectFlutter\BackEndChat\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:231:16)
+    at done (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:515:28)
+    at endReadableNT (node:internal/streams/readable:1409:12)
+============================================================================
+        Mon Jun 10 2024 22:38:02 GMT+0700 (Indochina Time)
+        message: Unexpected token 'n', "#" is not valid JSON
+        stack: SyntaxError: Unexpected token 'n', "#" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (C:\ProjectFlutter\BackEndChat\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (C:\ProjectFlutter\BackEndChat\node_modules\body-parser\lib\types\json.js:83:15)
+    at C:\ProjectFlutter\BackEndChat\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:231:16)
+    at done (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:515:28)
+    at endReadableNT (node:internal/streams/readable:1409:12)
+============================================================================
+        Mon Jun 10 2024 22:38:06 GMT+0700 (Indochina Time)
+        message: Unexpected token 'n', "#" is not valid JSON
+        stack: SyntaxError: Unexpected token 'n', "#" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (C:\ProjectFlutter\BackEndChat\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (C:\ProjectFlutter\BackEndChat\node_modules\body-parser\lib\types\json.js:83:15)
+    at C:\ProjectFlutter\BackEndChat\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:231:16)
+    at done (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:515:28)
+    at endReadableNT (node:internal/streams/readable:1409:12)
+============================================================================
+        Mon Jun 10 2024 22:39:55 GMT+0700 (Indochina Time)
+        message: Unexpected token 'n', "#" is not valid JSON
+        stack: SyntaxError: Unexpected token 'n', "#" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (C:\ProjectFlutter\BackEndChat\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (C:\ProjectFlutter\BackEndChat\node_modules\body-parser\lib\types\json.js:83:15)
+    at C:\ProjectFlutter\BackEndChat\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:231:16)
+    at done (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:515:28)
+    at endReadableNT (node:internal/streams/readable:1409:12)
+============================================================================
+        Mon Jun 10 2024 22:40:00 GMT+0700 (Indochina Time)
+        message: Unexpected token 'n', "#" is not valid JSON
+        stack: SyntaxError: Unexpected token 'n', "#" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (C:\ProjectFlutter\BackEndChat\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (C:\ProjectFlutter\BackEndChat\node_modules\body-parser\lib\types\json.js:83:15)
+    at C:\ProjectFlutter\BackEndChat\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:231:16)
+    at done (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:515:28)
+    at endReadableNT (node:internal/streams/readable:1409:12)
+============================================================================
+        Mon Jun 10 2024 22:40:31 GMT+0700 (Indochina Time)
+        message: Unexpected token 'n', "#" is not valid JSON
+        stack: SyntaxError: Unexpected token 'n', "#" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (C:\ProjectFlutter\BackEndChat\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (C:\ProjectFlutter\BackEndChat\node_modules\body-parser\lib\types\json.js:83:15)
+    at C:\ProjectFlutter\BackEndChat\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:231:16)
+    at done (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:515:28)
+    at endReadableNT (node:internal/streams/readable:1409:12)
+============================================================================
+        Mon Jun 10 2024 22:43:21 GMT+0700 (Indochina Time)
+        message: Unexpected token 'n', "#" is not valid JSON
+        stack: SyntaxError: Unexpected token 'n', "#" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (C:\ProjectFlutter\BackEndChat\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (C:\ProjectFlutter\BackEndChat\node_modules\body-parser\lib\types\json.js:83:15)
+    at C:\ProjectFlutter\BackEndChat\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:231:16)
+    at done (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:515:28)
+    at endReadableNT (node:internal/streams/readable:1409:12)
+============================================================================
+        Mon Jun 10 2024 22:48:14 GMT+0700 (Indochina Time)
+        message: Unexpected token 'n', "#" is not valid JSON
+        stack: SyntaxError: Unexpected token 'n', "#" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (C:\ProjectFlutter\BackEndChat\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (C:\ProjectFlutter\BackEndChat\node_modules\body-parser\lib\types\json.js:83:15)
+    at C:\ProjectFlutter\BackEndChat\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:231:16)
+    at done (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:515:28)
+    at endReadableNT (node:internal/streams/readable:1409:12)
+============================================================================
+        Mon Jun 10 2024 22:49:37 GMT+0700 (Indochina Time)
+        message: Unexpected token 'n', "#" is not valid JSON
+        stack: SyntaxError: Unexpected token 'n', "#" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (C:\ProjectFlutter\BackEndChat\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (C:\ProjectFlutter\BackEndChat\node_modules\body-parser\lib\types\json.js:83:15)
+    at C:\ProjectFlutter\BackEndChat\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:231:16)
+    at done (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:515:28)
+    at endReadableNT (node:internal/streams/readable:1409:12)
+============================================================================
+        Mon Jun 10 2024 22:49:42 GMT+0700 (Indochina Time)
+        message: Unexpected token 'n', "#" is not valid JSON
+        stack: SyntaxError: Unexpected token 'n', "#" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (C:\ProjectFlutter\BackEndChat\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (C:\ProjectFlutter\BackEndChat\node_modules\body-parser\lib\types\json.js:83:15)
+    at C:\ProjectFlutter\BackEndChat\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:231:16)
+    at done (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:515:28)
+    at endReadableNT (node:internal/streams/readable:1409:12)
+============================================================================
+        Mon Jun 10 2024 22:50:25 GMT+0700 (Indochina Time)
+        message: Unexpected token 'n', "#" is not valid JSON
+        stack: SyntaxError: Unexpected token 'n', "#" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (C:\ProjectFlutter\BackEndChat\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (C:\ProjectFlutter\BackEndChat\node_modules\body-parser\lib\types\json.js:83:15)
+    at C:\ProjectFlutter\BackEndChat\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:231:16)
+    at done (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:515:28)
+    at endReadableNT (node:internal/streams/readable:1409:12)
+============================================================================
+        Mon Jun 10 2024 22:50:30 GMT+0700 (Indochina Time)
+        message: Unexpected token 'n', "#" is not valid JSON
+        stack: SyntaxError: Unexpected token 'n', "#" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (C:\ProjectFlutter\BackEndChat\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (C:\ProjectFlutter\BackEndChat\node_modules\body-parser\lib\types\json.js:83:15)
+    at C:\ProjectFlutter\BackEndChat\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:231:16)
+    at done (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\ProjectFlutter\BackEndChat\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:515:28)
+    at endReadableNT (node:internal/streams/readable:1409:12)

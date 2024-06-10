@@ -60,19 +60,19 @@ io.on('connection', (socket) => {
         // Không cần phải xóa thông tin người dùng, vì nó đã tự động bị xóa khi kết nối socket đó bị đóng
     });
 
-    // Lắng nghe sự kiện 'chat message'
-    socket.on('chat message', (data) => {
+    // Lắng nghe sự kiện 'chat group'
+    socket.on('messageGroup', (data) => {
         const { id, content,image, time,id_group,id_user,name,avatar} = data;
         console.log('Tin nhắn từ người dùng', id_user + ': ' + content);
-        io.emit('chat message', {content,time,id_user,avatar,image,name,id_group}); 
+        io.emit('messageGroup', {id,content,time,id_user,avatar,image,name,id_group}); 
     
     });
 
-      // Lắng nghe sự kiện 'chat message'
+      // Lắng nghe sự kiện 'chat single'
       socket.on('messageSingle', (data) => {
         const { id, content,image, time,id_group,id_user,name,avatar} = data;
         console.log('Tin nhắn từ người dùng', id_user + ': ' + content);
-        io.emit('messageSingle', {content,time,id_user,avatar,image,name,id_group}); 
+        io.emit('messageSingle', {id,content,time,id_user,avatar,image,name,id_group}); 
     
     });
      // Lắng nghe sự kiện 'readMessage'
@@ -84,7 +84,6 @@ io.on('connection', (socket) => {
 
     
 });
-
 
 server.listen(port, () => {
     db.execute('SET GLOBAL event_scheduler="ON"')

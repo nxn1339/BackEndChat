@@ -5,12 +5,15 @@ GET http://localhost:3000/chat/last/09d1ce97-089e-11ef-aa1b-088fc368
 
 ###
 POST  http://localhost:3000/chat
-Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjNjNWYwZTEyLWY2NzMtMTFlZS05NTRlLTA4OGZjMzY4IiwiaWF0IjoxNzEyNjc5MzQ2LCJleHAiOjE3MTI3NjU3NDZ9.d_NHZhmny2PUPzaPYjv1kG_mFuyMIMPJvn3mj60-7zw
-Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImI1YjMxOTBjLTUzOTctMTFlZS1iNjEwLTA4OTc5OGQzIiwiaWF0IjoxNzE4MDMwNTAzLCJleHAiOjE3MTgxMTY5MDN9.0Z_XWeIFWVsE8od2okTrsS5FMd6RS7gERaeQfLvuXAA
 
 {
     "content": "hello",
     "image": "",
-    "id_group": "",
-    "id_user":""
+    "id_group": "125a7d59-1b51-11ef-ac79-088fc368",
+    "id_user":"b5b3190c-5397-11ee-b610-089798d3"
 }
+
+### Delete chat
+DELETE  http://localhost:3000/chat/delete/21fc902c-273b-11ef-a241-088fc368
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImI1YjMxOTBjLTUzOTctMTFlZS1iNjEwLTA4OTc5OGQzIiwiaWF0IjoxNzE4MDMwNTAzLCJleHAiOjE3MTgxMTY5MDN9.0Z_XWeIFWVsE8od2okTrsS5FMd6RS7gERaeQfLvuXAA
