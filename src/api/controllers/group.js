@@ -168,7 +168,7 @@ async function checkSingleGroup(id_user1,id_user2) {
         const result = await db.execute(
             `SELECT COUNT(*) as cnt FROM \`group\`
             WHERE (\`id_user\` = '${id_user1}' AND \`id_user_single\` = '${id_user2}' AND \`type\` = 1)
-               OR (\`id_user\` = '${id_user2}' AND \`id_user_single\` = '${id_user1}' AND \`type\` = 1);`)
+               OR (\`id_user\` = '${id_user2}' AND \`id_user_single\` = '${id_user1}' AND \`type\` = 1) AND \`type\` = 1 ;`)
         return {
             code: 200,
             data: result
