@@ -1,5 +1,5 @@
 ###Lấy tin nhắn của 1 nhóm
-GET http://localhost:3000/chat/b1577a39-1b41-11ef-ac79-088fc368?page=1
+GET http://localhost:3000/chat/37ec5f80-28dd-11ef-b5db-088fc368?page=1&keyword=t
 ###Lấy tin nhắn cuối cùng của group đó
 GET http://localhost:3000/chat/last/09d1ce97-089e-11ef-aa1b-088fc368
 

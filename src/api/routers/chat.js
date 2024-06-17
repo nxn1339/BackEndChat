@@ -5,7 +5,7 @@ const { checkLogin } = require('../middlewares/checkLogin')
 
 router.get('/:id_group', async (req, res, next) => {
     try {
-        res.json(await controller.getListChat(req.params.id_group,req.query.page))
+        res.json(await controller.getListChat(req.params.id_group,req.query.page,req.query.keyword))
     } catch (error) {
         next(error)
     }

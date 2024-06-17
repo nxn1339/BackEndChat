@@ -2,13 +2,13 @@ const fs = require('fs')
 const path = require('path')
 
 async function uploadImage(imageFile) {
-    const extension = path.extname(imageFile.originalname)
+    const extension = imageFile.originalname
     const oldPath = imageFile.path
-    const newPath = path.join(__dirname, '../../resources/' + imageFile.filename + extension)
+    const newPath = path.join(__dirname, '../../resources/' + extension)
 
     fs.promises.rename(oldPath, newPath)
 
-    const image = imageFile.filename + extension
+    const image = extension
 
     return {
         code: 200,

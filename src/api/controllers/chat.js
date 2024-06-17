@@ -2,7 +2,7 @@ const db = require('../helpers/database')
 const helper = require('../helpers/helper')
 const { listPerPage } = require('../../config/config')
 
-async function getListChat(id_group, page) {
+async function getListChat(id_group, page,keyword) {
     try {
         const offset = helper.getOffset(page, listPerPage)
         const result = await db.execute(
@@ -10,11 +10,11 @@ async function getListChat(id_group, page) {
             c.\`id\`, c.\`content\`, c.\`image\`, \`time\`,c.\`id_group\`, c.\`id_user\`, u.name, u.avatar
             FROM \`chat\` AS c
             INNER JOIN \`user\` AS u ON u.\`id\` = c.\`id_user\`
-            WHERE c.id_group = '${id_group}'
+            WHERE c.id_group = '${id_group}' AND c.content LIKE '%${keyword ?? ''}%'
             ORDER BY \`time\` DESC
             LIMIT ${offset}, ${listPerPage}`
             )
-            const totalResult = await db.execute(`SELECT count(*) AS total FROM chat AS c INNER JOIN \`user\` AS u ON u.\`id\` = c.\`id_user\` WHERE c.id_group = '${id_group}'`)
+            const totalResult = await db.execute(`SELECT count(*) AS total FROM chat AS c INNER JOIN \`user\` AS u ON u.\`id\` = c.\`id_user\` WHERE c.id_group = '${id_group}' AND c.content LIKE '%${keyword ?? ''}%'`)
             const total = totalResult[0].total;
         return {
             code: 200,
