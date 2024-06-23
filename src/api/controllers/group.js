@@ -137,7 +137,7 @@ async function getStatusMessage(id_user,id_group) {
 
 async function updateGroup(group) {
     try {
-        if(group.image!='' || group!=null){
+        if(group.image!=''){
             await db.execute(
                 `UPDATE \`group\` SET           
                 \`name\`='${group.name}',
